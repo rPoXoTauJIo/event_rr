@@ -50,7 +50,8 @@ def init():
         debugEcho('Failed to create socket')
 
     setStartTime()
-    setLogFilename()
+    #setLogFilename()
+    wipeLogFile()
 
 # ------------------------------------------------------------------------
 # setStartTime
@@ -77,6 +78,16 @@ def setLogFilename():
     FILENAME_DEBUG = 'advdebug_%s_%s_%s.log' % (
         datetime.now().hour, datetime.now().minute, datetime.now().second)
     debugEcho('filename set to %s' % (FILENAME_DEBUG))
+
+def wipeLogFile():
+    # fileName = host.sgl_getModDirectory() + C.spawnerLogPath
+    logPath = '/'.join([host.sgl_getModDirectory(), 'bin', FILENAME_DEBUG])
+    try:
+        logFile = open(logPath, 'w')
+        logFile.write('LOGFILE INITIALIZED\n')
+        logFile.close()
+    except:
+        debugEcho('wipeLogFile(): failed to write debug message in %s' % (logPath))
 
 # ------------------------------------------------------------------------
 # sendMessageToAll

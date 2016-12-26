@@ -19,6 +19,7 @@ DEBUGS_DEFAULT = [
 MAP_EVENT = [
     ('ramiel', 'gpm_cq', 64),
     ('ramiel', 'gpm_cq', 128),
+    ('bamyan', 'gpm_cq', 32),
     ]
 
 MAP_HIDEOUTS = {
@@ -319,6 +320,254 @@ MAP_SPAWNERS = {
                     },
                 ]
             }
+        },
+    'bamyan' : {
+        'gpm_cq' : {
+            32 :[
+                # USMC spawners
+                {
+                    'name' : 'USA_OS_main_VehicleSpwn_1',
+                    'template' : 'us_jep_hmmwv_uparmored',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1288.271, 47.992, 1161.503),
+                    'rotation' : (0.000, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_Humvee2',
+                    'template' : 'us_jep_hmmwv_uparmored',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1229.208, 47.070, 1153.982),
+                    'rotation' : (-47.693, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply1',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1219.495, 47.893, 1116.552),
+                    'rotation' : (39.119, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply2',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1235.473, 46.921, 1157.266),
+                    'rotation' : (44.181, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply3',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1246.846, 46.921, 1175.195),
+                    'rotation' : (-49.069, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply4',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1274.395, 49.997, 1205.436),
+                    'rotation' : (0.000, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply5',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1275.315, 46.921, 1126.203),
+                    'rotation' : (31.146, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply6',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1298.900, 46.921, 1116.142),
+                    'rotation' : (96.634, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply7',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1298.371, 46.985, 1137.345),
+                    'rotation' : (-167.539, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_sply8',
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1216.540, 47.893, 1099.515),
+                    'rotation' : (37.470, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_FOB',
+                    'template' : 'fixed_firebase',
+                    'team' : 2,
+                    'delay' : 60,
+                    'position' : (1243.722, 47.196, 1144.192),
+                    'rotation' : (0.000, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_LogiTruckUSA',
+                    'template' : 'us_trk_logistics',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1223.100, 47.893, 1134.893),
+                    'rotation' : (-138.616, 0.000, 0.000)
+                    },
+                # Taliban spawners
+                {
+                    'name' : 'Taliban_OS_3_sply2',
+                    'template' : 'fixed_supply_crate_tal',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1826.507, 84.441, 448.439),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_OS_1_Vehicle_technical',
+                    'template' : 'civ_jep_technical_black',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (593.042, 36.309, 1277.786),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_OS_3_sply_3',
+                    'template' : 'fixed_supply_crate_tal',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1830.948, 82.162, 487.835),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_Vehicle_Zastava_1',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (601.908, 35.227, 1298.468),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_Vehicle_VBIED',
+                    'template' : 'civ_trk_dumpster_bomber',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (586.171, 39.99, 1235.035),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_CP2_Vehicle_Zastava2',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1626.689, 33.777, 1838.27),
+                    'rotation' : (171.566, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_CP3_Vehicle_Zastava2',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1836.855, 84.908, 437.604),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_OS_1_technical_ammo',
+                    'template' : 'civ_jep_support',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (581.798, 36.683, 1275.51),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_OS_1_sply_1',
+                    'template' : 'fixed_supply_crate_tal',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (582.681, 34.863, 1312.098),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_CP3_Vehicle_Zastava1',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1836.605, 84.075, 457.102),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_Vehicle_Zastava_2',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (580.358, 34.993, 1297.46),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_OS_3_technical_ammo',
+                    'template' : 'civ_jep_support',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1837.315, 84.451, 448.946),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_OS_2_technical_ammo',
+                    'template' : 'civ_jep_support',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1636.724, 33.204, 1844.477),
+                    'rotation' : (-174.61, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_CP3_Vehicle_DSHKm',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1824.927, 83.943, 457.796),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_CP2_Vehicle_Zastava',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1642.06, 35.295, 1826.208),
+                    'rotation' : (-174.772, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_CP3_Vehicle_VBIED',
+                    'template' : 'civ_trk_dumpster_bomber',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1826.948, 86.6, 398.444),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_CP2_Vehicle_DSHKm',
+                    'template' : 'civ_jep_zastava900ak',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1630.216, 35.06, 1823.614),
+                    'rotation' : (-178.794, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'Taliban_OS_2_sply_2',
+                    'template' : 'fixed_supply_crate_tal',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (1643.892, 37.482, 1806.833),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                ]
+            }
         }
     }
 
@@ -332,6 +581,69 @@ MAP_FLAGS = {
             128 : {
                 'cpname_ramiel_aas128_habr_gidr_hq' : (67.3558, 20.0, 525.785)
             }
+        }
+    }
+
+MAP_DODS = {
+    'bamyan' : {
+        'gpm_cq' : {
+            32 : {
+                'CombatArea_0_AAS32' : {
+                    'name' : 'CombatArea_0_AAS32',
+                    'create' : False,
+                    'team' : 1, # we're changing to team 1
+                    #'vehicles' : 4,
+                    #'layer' : 4,
+                    #'inverted' : 0,
+                    #'areapoints' : [
+                    #    (2048.000000, -2048.000000),
+                    #    (2048.000000, 2048.000000),
+                    #    (-2048.000000, 2048.000000),
+                    #    (-2048.000000, -2048.000000)
+                    #    ]
+                    },
+                'CombatArea_12_aas_32' : {
+                    'name' : 'CombatArea_12_aas_32',
+                    'create' : True,
+                    'team' : 2,
+                    'vehicles' : 4,
+                    'layer' : 4,
+                    'inverted' : 0,
+                    'areapoints' : [
+						(1174.676025, 1103.674561),
+						(1232.380371, 1055.284668),
+						(1245.156982, 1051.126221),
+						(1254.905762, 1055.237061),
+						(1280.414307, 1087.708496),
+						(1294.782227, 1094.130371),
+						(1308.346680, 1097.046143),
+						(1326.570557, 1107.518555),
+						(1337.739502, 1116.192383),
+						(1341.638428, 1125.409668),
+						(1340.869141, 1133.777832),
+						(1339.842041, 1136.473633),
+						(1317.634033, 1140.716309),
+						(1309.857666, 1161.430176),
+						(1296.853271, 1183.943115),
+						(1291.420410, 1195.915039),
+						(1287.397461, 1205.823730),
+						(1281.621094, 1215.468506),
+						(1270.386719, 1223.174072),
+						(1262.915039, 1222.955811),
+						(1249.763184, 1219.809814),
+						(1233.890137, 1207.767090),
+						(1217.339111, 1189.089355),
+						(1211.392822, 1181.513672),
+						(1207.733154, 1172.983398),
+						(1207.270264, 1159.205566),
+						(1179.900635, 1123.102295),
+						(1174.063232, 1113.879150),
+						(1172.645752, 1109.778809),
+						(1172.853760, 1106.407959)
+                        ]
+                    },
+                }
+            },
         }
     }
 
