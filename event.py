@@ -153,14 +153,20 @@ def setupDoD(map_name, map_gamemode, map_layer):
     for dod_set in C.MAP_DODS[map_name][map_gamemode][map_layer]:
         #host.rcon_invoke()
         #combatArea.active
-        if not dod_set['create']:
-            modifyDoD(dod_set)
+        if not C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['create']:
+            modifyDoD(C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set])
 
 def modifyDoD(properties):
-    host.rcon_invoke('CombatArea.active %s' % (properties['name']))
     if 'team' in properties:
-        host.rcon_invoke('CombatArea.team %s' % (properties['team']))
+        host.rcon_invoke("""
+CombatArea.active %s
+CombatArea.team %s""" % (properties['name'], properties['team']))
         D.debugMessage('CombatArea.team %s' % (properties['team']))
+    elif 'delete' in properties and properties['delete']:
+        host.rcon_invoke("""
+CombatArea.active %s
+CombatArea.deleteActiveCombatArea""" % (properties['name']))
+        D.debugMessage('CombatArea.deleteActiveCombatArea %s' % (properties['name']))
 
 
 
