@@ -1,0 +1,2483 @@
+run ../../../Init_blackhawk.con
+
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_usmain_helo1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_usmain_helo1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_usmain_helo1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_the_mh6
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_helo3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_helo3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_helo3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_the_uh60_soar
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_depot]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_depot
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_depot
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 vehicle_depot_us
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_jeep1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_jeep1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_jeep1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_mk19
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_jeep2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_jeep2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_jeep2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_jeep3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_jeep3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_jeep3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_usmain_helo4]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_usmain_helo4
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_usmain_helo4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_ahe_ah6
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_usmain_helo5]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_usmain_helo5
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_usmain_helo5
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_the_mh6
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_usmain_helo6]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_usmain_helo6
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_usmain_helo6
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_the_mh6
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_deltaforce_crate]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_deltaforce_crate
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_deltaforce_crate
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_deltaforce_crate2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_deltaforce_crate2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_deltaforce_crate2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_helo7]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_helo7
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_helo7
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_ahe_ah6
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_crate]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_crate
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_crate
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_10th_jeep4]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_10th_jeep4
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_10th_jeep4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_10th_jeep5]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_10th_jeep5
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_10th_jeep5
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_10th_crate]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_10th_crate
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_10th_crate
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_10th_apc1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_10th_apc1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_10th_apc1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fr_apc_vbci
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_10th_apc2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_10th_apc2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_10th_apc2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fr_apc_vbci
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_10th_crate2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_10th_crate2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_10th_crate2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_mortar1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mortar_team1
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_mortar2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mortar_team1
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_mortar3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mortar_team1
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_mortar4]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar4
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_mortar4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mortar_team1
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_jeep1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_support_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_jeep2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_technical_red
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_mosque1_crate]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_mosque1_crate
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_mosque1_crate
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_mosque2_crate]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_mosque2_crate
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_mosque2_crate
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_spawn]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spawn
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spawn
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 0
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_blackhawk2_spawn2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_blackhawk2_spawn2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_blackhawk2_spawn2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 0
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_spawn3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spawn3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spawn3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 0
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_spawn4]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spawn4
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spawn4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 0
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew12_cache]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew12_cache
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew12_cache
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew11_cache]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew11_cache
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew11_cache
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew10_jeep1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew10_jeep1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew10_jeep1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew11_jeep1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew11_jeep1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew11_jeep1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew12_jeep3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew12_jeep3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew12_jeep3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_uparmored_mk19
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_tank]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_tank
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_tank
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fr_apc_vab
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_helo7_0]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_helo7_0
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_helo7_0
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_the_uh60_soar
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_repairdepot]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_repairdepot
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_repairdepot
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 vehicle_depot_tal
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_jeep3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_aav_uralzu232
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_jeep4]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep4
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_technical
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_bike1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_bik_dirtbike
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_bike2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_bik_dirtbike
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_bike3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_bik_dirtbike
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_bike4]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike4
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_bike4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_bik_dirtbike
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_jeep5]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep5
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep5
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_black
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_jeep6]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep6
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep6
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_jeep7]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep7
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_jeep7
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_technical
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_160th_acv]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_160th_acv
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_160th_acv
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_acv_stryker
+ObjectTemplate.minSpawnDelay 1
+ObjectTemplate.maxSpawnDelay 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_ammo1]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo1
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_ammo2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 0
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_city2_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_city2_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_city2_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_ammo1_0]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo1_0
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo1_0
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_ammo2_0]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo2_0
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo2_0
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_city2_car]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_city2_car
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_city2_car
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_city4_car]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_city4_car
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_city4_car
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_blue
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_ammo5]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo5
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_ammo5
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew1_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew1_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew1_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew2_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew2_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew2_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew3_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew3_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew3_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew4_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew4_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew4_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew5_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew5_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew5_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew6_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew6_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew6_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew7_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew7_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew7_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew8_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew8_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew8_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew13_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew13_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew13_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew14_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew14_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew14_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_crew15_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_crew15_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_crew15_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_city5_ins_jeep_3]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_city5_ins_jeep_3
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_city5_ins_jeep_3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_blue
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_spg]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spg
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_spg
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_atm_technical
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_habr_gidr_hq_acv]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_acv
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_habr_gidr_hq_acv
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 arf_acv_technical
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_mosque1_rally]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_mosque1_rally
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_mosque1_rally
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_mosque1_rally2]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_mosque1_rally2
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_mosque1_rally2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_mosque2_rally]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_mosque2_rally
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_mosque2_rally
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_city5_rally]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_city5_rally
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_city5_rally
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 rallypoint_arf_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_city5_ammo]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_city5_ammo
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_city5_ammo
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ammocache
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_ramiel_aas128_10th_logi]
+ObjectTemplate.create ObjectSpawner cpname_ramiel_aas128_10th_logi
+ObjectTemplate.activeSafe ObjectSpawner cpname_ramiel_aas128_10th_logi
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_trk_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_usmain_helo1]
+   Object.create cpname_ramiel_aas128_usmain_helo1
+   Object.absolutePosition -328.938/25.000/-636.964
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_helo3]
+   Object.create cpname_ramiel_aas128_160th_helo3
+   Object.absolutePosition -599.177/25.000/-669.998
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 615
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_depot]
+   Object.create cpname_ramiel_aas128_160th_depot
+   Object.absolutePosition -719.592/25.000/-585.962
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_jeep1]
+   Object.create cpname_ramiel_aas128_160th_jeep1
+   Object.absolutePosition -692.033/24.922/-663.698
+   Object.rotation 18.848/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_jeep2]
+   Object.create cpname_ramiel_aas128_160th_jeep2
+   Object.absolutePosition -681.662/24.922/-663.341
+   Object.rotation 18.774/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_jeep3]
+   Object.create cpname_ramiel_aas128_160th_jeep3
+   Object.absolutePosition -687.256/24.922/-663.520
+   Object.rotation 21.355/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_usmain_helo4]
+   Object.create cpname_ramiel_aas128_usmain_helo4
+   Object.absolutePosition -257.087/25.000/-636.708
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_usmain_helo5]
+   Object.create cpname_ramiel_aas128_usmain_helo5
+   Object.absolutePosition -274.838/25.000/-637.140
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_usmain_helo6]
+   Object.create cpname_ramiel_aas128_usmain_helo6
+   Object.absolutePosition -310.522/25.000/-636.971
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_deltaforce_crate]
+   Object.create cpname_ramiel_aas128_deltaforce_crate
+   Object.absolutePosition -364.004/25.000/-643.047
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_deltaforce_crate2]
+   Object.create cpname_ramiel_aas128_deltaforce_crate2
+   Object.absolutePosition -300.174/25.000/-653.157
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_helo7]
+   Object.create cpname_ramiel_aas128_160th_helo7
+   Object.absolutePosition -239.338/25.000/-636.895
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 615
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_crate]
+   Object.create cpname_ramiel_aas128_160th_crate
+   Object.absolutePosition -556.409/25.000/-656.401
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 615
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_10th_jeep4]
+   Object.create cpname_ramiel_aas128_10th_jeep4
+   Object.absolutePosition -697.435/24.922/-663.476
+   Object.rotation 20.586/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_10th_jeep5]
+   Object.create cpname_ramiel_aas128_10th_jeep5
+   Object.absolutePosition -702.703/24.922/-663.557
+   Object.rotation 20.240/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_10th_crate]
+   Object.create cpname_ramiel_aas128_10th_crate
+   Object.absolutePosition -727.645/25.000/-665.829
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_10th_apc1]
+   Object.create cpname_ramiel_aas128_10th_apc1
+   Object.absolutePosition -675.288/25.000/-617.879
+   Object.rotation 46.872/0.000/0.000
+   Object.setControlPointId 622
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_10th_apc2]
+   Object.create cpname_ramiel_aas128_10th_apc2
+   Object.absolutePosition -663.333/25.000/-606.060
+   Object.rotation 48.766/0.000/0.000
+   Object.setControlPointId 622
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_10th_crate2]
+   Object.create cpname_ramiel_aas128_10th_crate2
+   Object.absolutePosition -689.634/24.922/-680.999
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_mortar1]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_mortar1
+   Object.absolutePosition -622.970/24.960/2686.124
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_mortar2]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_mortar2
+   Object.absolutePosition -782.230/24.960/2631.580
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_mortar3]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_mortar3
+   Object.absolutePosition -568.174/24.960/2562.838
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_mortar4]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_mortar4
+   Object.absolutePosition -671.260/24.960/2647.892
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_jeep1]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_jeep1
+   Object.absolutePosition -477.833/25.000/596.384
+   Object.rotation -92.085/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_jeep2]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_jeep2
+   Object.absolutePosition -484.515/25.000/578.685
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_mosque1_crate]
+   Object.create cpname_ramiel_aas128_mosque1_crate
+   Object.absolutePosition 254.130/33.843/362.261
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 604
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_mosque2_crate]
+   Object.create cpname_ramiel_aas128_mosque2_crate
+   Object.absolutePosition -373.231/25.218/432.545
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 605
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_spawn]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_spawn
+   Object.absolutePosition -35.399/25.000/228.185
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_blackhawk2_spawn2]
+   Object.create cpname_ramiel_aas128_blackhawk2_spawn2
+   Object.absolutePosition -32.843/25.019/249.076
+   Object.rotation -178.489/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_spawn3]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_spawn3
+   Object.absolutePosition 86.624/30.975/816.290
+   Object.rotation -153.243/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_spawn4]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_spawn4
+   Object.absolutePosition 82.942/25.000/508.928
+   Object.rotation -156.886/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew12_cache]
+   Object.create cpname_ramiel_aas128_crew12_cache
+   Object.absolutePosition 51.709/25.010/440.336
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 626
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew11_cache]
+   Object.create cpname_ramiel_aas128_crew11_cache
+   Object.absolutePosition -88.748/29.113/106.099
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 622
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew10_jeep1]
+   Object.create cpname_ramiel_aas128_crew10_jeep1
+   Object.absolutePosition 30.726/25.000/432.360
+   Object.rotation 96.038/0.000/0.000
+   Object.setControlPointId 626
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew11_jeep1]
+   Object.create cpname_ramiel_aas128_crew11_jeep1
+   Object.absolutePosition 44.634/25.000/434.050
+   Object.rotation 86.533/0.000/0.000
+   Object.setControlPointId 626
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew12_jeep3]
+   Object.create cpname_ramiel_aas128_crew12_jeep3
+   Object.absolutePosition 36.438/25.000/435.326
+   Object.rotation 86.533/0.000/0.000
+   Object.setControlPointId 626
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_tank]
+   Object.create cpname_ramiel_aas128_160th_tank
+   Object.absolutePosition -685.489/25.000/-628.714
+   Object.rotation 46.872/0.000/0.000
+   Object.setControlPointId 622
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_helo7_0]
+   Object.create cpname_ramiel_aas128_160th_helo7_0
+   Object.absolutePosition -580.718/25.000/-670.870
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 615
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_repairdepot]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_repairdepot
+   Object.absolutePosition -478.798/25.000/622.616
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_jeep3]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_jeep3
+   Object.absolutePosition -491.092/25.000/578.760
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_jeep4]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_jeep4
+   Object.absolutePosition -501.637/25.000/578.395
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_bike1]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_bike1
+   Object.absolutePosition -493.819/25.000/578.803
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_bike2]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_bike2
+   Object.absolutePosition -502.288/25.000/607.706
+   Object.rotation 32.479/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_bike3]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_bike3
+   Object.absolutePosition -501.962/25.000/611.714
+   Object.rotation 29.476/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_bike4]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_bike4
+   Object.absolutePosition -501.801/25.000/615.612
+   Object.rotation 30.191/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_jeep5]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_jeep5
+   Object.absolutePosition -430.824/25.000/608.847
+   Object.rotation 162.170/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_jeep6]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_jeep6
+   Object.absolutePosition -426.699/25.000/609.527
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_jeep7]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_jeep7
+   Object.absolutePosition -422.238/25.000/609.841
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_160th_acv]
+   Object.create cpname_ramiel_aas128_160th_acv
+   Object.absolutePosition -508.864/25.580/-647.829
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 615
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_ammo1]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_ammo1
+   Object.absolutePosition 83.105/25.000/492.553
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_ammo2]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_ammo2
+   Object.absolutePosition -30.164/25.000/236.698
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_city2_ammo]
+   Object.create cpname_ramiel_aas128_city2_ammo
+   Object.absolutePosition 779.942/21.458/-305.615
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 607
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_ammo1_0]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_ammo1_0
+   Object.absolutePosition -456.467/25.000/583.509
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_ammo2_0]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_ammo2_0
+   Object.absolutePosition -464.483/25.000/620.703
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_city2_car]
+   Object.create cpname_ramiel_aas128_city2_car
+   Object.absolutePosition 776.414/21.458/-286.483
+   Object.rotation 154.332/0.000/0.000
+   Object.setControlPointId 607
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_city4_car]
+   Object.create cpname_ramiel_aas128_city4_car
+   Object.absolutePosition 82.879/30.975/829.592
+   Object.rotation -111.847/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_ammo5]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_ammo5
+   Object.absolutePosition 80.379/30.975/808.549
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew1_ammo]
+   Object.create cpname_ramiel_aas128_crew1_ammo
+   Object.absolutePosition -730.793/33.391/512.536
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 610
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew2_ammo]
+   Object.create cpname_ramiel_aas128_crew2_ammo
+   Object.absolutePosition -666.689/29.328/732.089
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 611
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew3_ammo]
+   Object.create cpname_ramiel_aas128_crew3_ammo
+   Object.absolutePosition -798.903/29.281/753.191
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 612
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew4_ammo]
+   Object.create cpname_ramiel_aas128_crew4_ammo
+   Object.absolutePosition -902.315/33.421/665.834
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 613
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew5_ammo]
+   Object.create cpname_ramiel_aas128_crew5_ammo
+   Object.absolutePosition -510.286/29.280/188.861
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 614
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew6_ammo]
+   Object.create cpname_ramiel_aas128_crew6_ammo
+   Object.absolutePosition -254.281/33.391/199.754
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 616
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew7_ammo]
+   Object.create cpname_ramiel_aas128_crew7_ammo
+   Object.absolutePosition -227.732/28.569/349.682
+   Object.rotation -135.306/0.000/0.000
+   Object.setControlPointId 618
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew8_ammo]
+   Object.create cpname_ramiel_aas128_crew8_ammo
+   Object.absolutePosition -503.754/29.429/252.449
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 619
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew13_ammo]
+   Object.create cpname_ramiel_aas128_crew13_ammo
+   Object.absolutePosition -99.253/25.020/573.245
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 620
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew14_ammo]
+   Object.create cpname_ramiel_aas128_crew14_ammo
+   Object.absolutePosition -160.681/33.391/414.344
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 621
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_crew15_ammo]
+   Object.create cpname_ramiel_aas128_crew15_ammo
+   Object.absolutePosition -624.837/25.127/445.746
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 625
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_city5_ins_jeep_3]
+   Object.create cpname_ramiel_aas128_city5_ins_jeep_3
+   Object.absolutePosition -951.654/25.030/397.547
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_spg]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_spg
+   Object.absolutePosition -421.085/25.000/596.528
+   Object.rotation 83.425/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_habr_gidr_hq_acv]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq_acv
+   Object.absolutePosition -434.807/25.561/585.825
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_mosque1_rally]
+   Object.create cpname_ramiel_aas128_mosque1_rally
+   Object.absolutePosition 251.686/33.780/348.532
+   Object.rotation 84.279/0.000/0.000
+   Object.setControlPointId 604
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_mosque1_rally2]
+   Object.create cpname_ramiel_aas128_mosque1_rally2
+   Object.absolutePosition 288.171/33.780/358.014
+   Object.rotation -90.857/0.000/0.000
+   Object.setControlPointId 604
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_mosque2_rally]
+   Object.create cpname_ramiel_aas128_mosque2_rally
+   Object.absolutePosition -357.975/25.000/420.629
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 605
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_city5_rally]
+   Object.create cpname_ramiel_aas128_city5_rally
+   Object.absolutePosition -945.856/25.030/410.563
+   Object.rotation 101.712/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_city5_ammo]
+   Object.create cpname_ramiel_aas128_city5_ammo
+   Object.absolutePosition -937.971/25.185/408.474
+   Object.rotation 41.886/0.000/0.000
+   Object.setControlPointId 603
+   Object.layer 7
+
+   rem [ObjectSpawner: cpname_ramiel_aas128_10th_logi]
+   Object.create cpname_ramiel_aas128_10th_logi
+   Object.absolutePosition -716.998/25.000/-577.791
+   Object.rotation 90.987/0.000/0.000
+   Object.setControlPointId 617
+   Object.layer 7
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: cpname_ramiel_aas128_160th_1_0]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_160th_1_0
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_160th_1_0
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 615
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_160th_1_0]
+Object.create cpname_ramiel_aas128_160th_1_0
+Object.absolutePosition -543.865/25.000/-693.927
+Object.rotation 5.936/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_insurgencymain_1]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_insurgencymain_1
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_insurgencymain_1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 5
+ObjectTemplate.setControlPointId 603
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_insurgencymain_1]
+Object.create cpname_ramiel_aas128_insurgencymain_1
+Object.absolutePosition -516.273/25.028/584.758
+Object.rotation 85.106/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_deltaforce_1]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_deltaforce_1
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_deltaforce_1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_deltaforce_1]
+Object.create cpname_ramiel_aas128_deltaforce_1
+Object.absolutePosition -374.496/25.000/-643.917
+Object.rotation 83.049/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_deltaforce_2]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_deltaforce_2
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_deltaforce_2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_deltaforce_2]
+Object.create cpname_ramiel_aas128_deltaforce_2
+Object.absolutePosition -364.136/25.000/-647.362
+Object.rotation 54.908/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_160th_2]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_160th_2
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_160th_2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 615
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_160th_2]
+Object.create cpname_ramiel_aas128_160th_2
+Object.absolutePosition -556.261/25.000/-694.294
+Object.rotation -0.709/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_160th_3]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_160th_3
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_160th_3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 615
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_160th_3]
+Object.create cpname_ramiel_aas128_160th_3
+Object.absolutePosition -568.675/25.000/-694.763
+Object.rotation -2.753/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_160th_4]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_160th_4
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_160th_4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 615
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_160th_4]
+Object.create cpname_ramiel_aas128_160th_4
+Object.absolutePosition -548.032/26.189/-648.082
+Object.rotation 177.738/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_160th_5]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_160th_5
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_160th_5
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setControlPointId 615
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_160th_5]
+Object.create cpname_ramiel_aas128_160th_5
+Object.absolutePosition -572.995/26.490/-641.249
+Object.rotation -90.905/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_10th_1]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_10th_1
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_10th_1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 617
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_10th_1]
+Object.create cpname_ramiel_aas128_10th_1
+Object.absolutePosition -721.679/25.000/-617.952
+Object.rotation 127.996/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_10th_2]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_10th_2
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_10th_2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 617
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_10th_2]
+Object.create cpname_ramiel_aas128_10th_2
+Object.absolutePosition -704.819/24.922/-696.100
+Object.rotation -2.247/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_10th_3]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_10th_3
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_10th_3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 617
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_10th_3]
+Object.create cpname_ramiel_aas128_10th_3
+Object.absolutePosition -693.178/24.922/-694.200
+Object.rotation -3.243/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_10th_4]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_10th_4
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_10th_4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 617
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_10th_4]
+Object.create cpname_ramiel_aas128_10th_4
+Object.absolutePosition -725.298/24.922/-674.728
+Object.rotation 18.695/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_10th_6]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_10th_6
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_10th_6
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setControlPointId 617
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_10th_6]
+Object.create cpname_ramiel_aas128_10th_6
+Object.absolutePosition -739.702/25.000/-633.910
+Object.rotation 114.163/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_city2_1]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_city2_1
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_city2_1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 607
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_city2_1]
+Object.create cpname_ramiel_aas128_city2_1
+Object.absolutePosition 770.964/21.458/-312.520
+Object.rotation 23.425/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_habr_gidr_hq_2]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_2
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 5
+ObjectTemplate.setControlPointId 603
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_habr_gidr_hq_2]
+Object.create cpname_ramiel_aas128_habr_gidr_hq_2
+Object.absolutePosition -499.304/25.000/595.407
+Object.rotation 128.416/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_habr_gidr_hq_3]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_3
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 6
+ObjectTemplate.setControlPointId 603
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_habr_gidr_hq_3]
+Object.create cpname_ramiel_aas128_habr_gidr_hq_3
+Object.absolutePosition -419.693/25.000/625.356
+Object.rotation 175.384/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_habr_gidr_hq_4]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_4
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 6
+ObjectTemplate.setControlPointId 603
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_habr_gidr_hq_4]
+Object.create cpname_ramiel_aas128_habr_gidr_hq_4
+Object.absolutePosition -437.298/25.000/580.289
+Object.rotation -48.731/0.000/0.000
+Object.layer 7
+
+rem [SpawnPointTemplate: cpname_ramiel_aas128_habr_gidr_hq_5]
+ObjectTemplate.create SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_5
+ObjectTemplate.activeSafe SpawnPoint cpname_ramiel_aas128_habr_gidr_hq_5
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 6
+ObjectTemplate.setControlPointId 603
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_ramiel_aas128_habr_gidr_hq_5]
+Object.create cpname_ramiel_aas128_habr_gidr_hq_5
+Object.absolutePosition -410.002/25.000/609.816
+Object.rotation -108.577/0.000/0.000
+Object.layer 7
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: cpname_ramiel_aas128_blackhawk1]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_blackhawk1
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_blackhawk1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_blackhawk1
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 40
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 601
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 8
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_blackhawk2]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_blackhawk2
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_blackhawk2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_blackhawk2
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 35
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 602
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.MinimapNameOffset 20/-10
+ObjectTemplate.supplyGroupId 6
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_habr_gidr_hq]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_habr_gidr_hq
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_habr_gidr_hq
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_habr_gidr_hq
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 603
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.supplyGroupId 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_160th]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_160th
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_160th
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_160th
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 615
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.isUnstrategicControlPoint 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_deltaforce]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_deltaforce
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_deltaforce
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_deltaforce
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 1
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.isUnstrategicControlPoint 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_10th]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_10th
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_10th
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_10th
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 617
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.isUnstrategicControlPoint 1
+ObjectTemplate.MinimapNameOffset -8/0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_mosque1]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_mosque1
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_mosque1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_mosque1
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 604
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.showOnMinimap 0
+ObjectTemplate.isUnstrategicControlPoint 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_mosque2]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_mosque2
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_mosque2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_mosque2
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 605
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.showOnMinimap 0
+ObjectTemplate.isUnstrategicControlPoint 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_city2]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_city2
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_city2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_city2
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 150
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 607
+ObjectTemplate.disableIfEnemyInsideRadius 1
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.showOnMinimap 0
+ObjectTemplate.hoistFlag 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_extraction]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_extraction
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_extraction
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_extraction
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 75
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 609
+ObjectTemplate.areaValueTeam2 9999
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 2
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew1]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew1
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew1
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew1
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 10
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 610
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.supplyGroupId 31
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew2]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew2
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew2
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew2
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 611
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 31
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew3]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew3
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew3
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew3
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 30
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 612
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 31
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew4]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew4
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew4
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew4
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 613
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.supplyGroupId 31
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew5]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew5
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew5
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew5
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 614
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 41
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew6]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew6
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew6
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew6
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 616
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.supplyGroupId 41
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew7]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew7
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew7
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew7
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 618
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 41
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew8]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew8
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew8
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew8
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 619
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.supplyGroupId 41
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew11]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew11
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew11
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew11
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 25
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 622
+ObjectTemplate.timeToGetControl 300
+ObjectTemplate.timeToLoseControl 300
+ObjectTemplate.MinimapNameOffset 0/-10
+ObjectTemplate.supplyGroupId 5
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew13]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew13
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew13
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew13
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 8
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 620
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 41
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew14]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew14
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew14
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew14
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 621
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.isHemisphere 1
+ObjectTemplate.supplyGroupId 41
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_crew15]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_crew15
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_crew15
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_crew15
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 9
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 625
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 31
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_ramiel_aas128_convoy]
+ObjectTemplate.create ControlPoint cpname_ramiel_aas128_convoy
+ObjectTemplate.activeSafe ControlPoint cpname_ramiel_aas128_convoy
+ObjectTemplate.modifiedByUser "Tim"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_ramiel_aas128_convoy
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.radius 30
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 626
+ObjectTemplate.timeToGetControl 120
+ObjectTemplate.timeToLoseControl 120
+ObjectTemplate.supplyGroupId 7
+ObjectTemplate.hoistFlag 0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: cpname_ramiel_aas128_blackhawk1]
+   Object.create cpname_ramiel_aas128_blackhawk1
+   Object.absolutePosition 304.038/21.716/665.281
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_blackhawk2]
+   Object.create cpname_ramiel_aas128_blackhawk2
+   Object.absolutePosition -24.619/22.929/168.740
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_habr_gidr_hq]
+   Object.create cpname_ramiel_aas128_habr_gidr_hq
+   Object.absolutePosition -466.754/22.250/602.128
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_160th]
+   Object.create cpname_ramiel_aas128_160th
+   Object.absolutePosition -542.355/16.892/-699.098
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_deltaforce]
+   Object.create cpname_ramiel_aas128_deltaforce
+   Object.absolutePosition -298.669/20.862/-655.563
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_10th]
+   Object.create cpname_ramiel_aas128_10th
+   Object.absolutePosition -744.752/21.352/-640.727
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_mosque1]
+   Object.create cpname_ramiel_aas128_mosque1
+   Object.absolutePosition 252.893/23.338/337.940
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_mosque2]
+   Object.create cpname_ramiel_aas128_mosque2
+   Object.absolutePosition -362.001/16.870/429.519
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_city2]
+   Object.create cpname_ramiel_aas128_city2
+   Object.absolutePosition 764.768/4.442/-279.379
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_extraction]
+   Object.create cpname_ramiel_aas128_extraction
+   Object.absolutePosition -840.838/22.092/356.981
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew1]
+   Object.create cpname_ramiel_aas128_crew1
+   Object.absolutePosition -732.546/29.104/513.731
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew2]
+   Object.create cpname_ramiel_aas128_crew2
+   Object.absolutePosition -674.389/22.671/727.264
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew3]
+   Object.create cpname_ramiel_aas128_crew3
+   Object.absolutePosition -796.997/21.938/766.354
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew4]
+   Object.create cpname_ramiel_aas128_crew4
+   Object.absolutePosition -900.290/30.228/666.812
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew5]
+   Object.create cpname_ramiel_aas128_crew5
+   Object.absolutePosition -505.136/25.030/178.722
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew6]
+   Object.create cpname_ramiel_aas128_crew6
+   Object.absolutePosition -255.210/29.142/195.181
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew7]
+   Object.create cpname_ramiel_aas128_crew7
+   Object.absolutePosition -222.722/22.089/342.939
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew8]
+   Object.create cpname_ramiel_aas128_crew8
+   Object.absolutePosition -498.018/29.817/250.411
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew11]
+   Object.create cpname_ramiel_aas128_crew11
+   Object.absolutePosition -89.680/23.718/101.319
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew13]
+   Object.create cpname_ramiel_aas128_crew13
+   Object.absolutePosition -94.341/22.597/560.881
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew14]
+   Object.create cpname_ramiel_aas128_crew14
+   Object.absolutePosition -171.693/29.470/416.468
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_crew15]
+   Object.create cpname_ramiel_aas128_crew15
+   Object.absolutePosition -624.156/22.748/448.996
+   Object.layer 7
+
+   rem [ControlPoint: cpname_ramiel_aas128_convoy]
+   Object.create cpname_ramiel_aas128_convoy
+   Object.absolutePosition 80.142/14.871/428.886
+   Object.layer 7
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 15.000000
+CombatArea.create CombatArea_0_Blackhawk_down
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 1024.000000/-1024.000000
+CombatArea.addAreaPoint 1024.000000/1024.000000
+CombatArea.addAreaPoint -1024.000000/1024.000000
+CombatArea.addAreaPoint -1024.000000/-524.934692
+CombatArea.addAreaPoint -657.306091/-1024.000000
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 7
+
+CombatArea.create CombatArea_20_Blackhawk_down
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 290.858398/259.211914
+CombatArea.addAreaPoint 291.003662/333.750122
+CombatArea.addAreaPoint 308.952637/334.460327
+CombatArea.addAreaPoint 308.570190/384.414429
+CombatArea.addAreaPoint 217.364502/383.366455
+CombatArea.addAreaPoint 217.159424/258.968750
+CombatArea.team 2
+CombatArea.vehicles 0
+CombatArea.layer 7
+CombatArea.Inverted 1
+
+CombatArea.create CombatArea_26_Blackhawk_down
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -323.267883/408.696899
+CombatArea.addAreaPoint -323.398804/450.121948
+CombatArea.addAreaPoint -401.870728/447.667114
+CombatArea.addAreaPoint -403.402222/409.661011
+CombatArea.team 2
+CombatArea.vehicles 0
+CombatArea.layer 7
+CombatArea.Inverted 1
+
+CombatArea.create CombatArea_42_Blackhawk_down
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -348.123596/651.078613
+CombatArea.addAreaPoint -347.969299/636.158081
+CombatArea.addAreaPoint -326.851746/636.690430
+CombatArea.addAreaPoint -327.113098/651.760010
+CombatArea.team 2
+CombatArea.vehicles 0
+CombatArea.layer 7
+CombatArea.Inverted 1
+
+CombatArea.create CombatArea_34_Blackhawk_down
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -555.530823/549.563599
+CombatArea.addAreaPoint -392.218811/548.945313
+CombatArea.addAreaPoint -360.720459/593.849487
+CombatArea.addAreaPoint -357.159668/652.177612
+CombatArea.addAreaPoint -576.618896/652.054321
+CombatArea.addAreaPoint -577.179749/632.470825
+CombatArea.addAreaPoint -567.543823/619.822510
+CombatArea.addAreaPoint -567.138184/583.122314
+CombatArea.addAreaPoint -555.502686/569.231201
+CombatArea.team 2
+CombatArea.vehicles 4
+CombatArea.layer 7
+CombatArea.Inverted 1
+
+CombatArea.create CombatArea_28_Blackhawk_down
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -149.496704/-365.765076
+CombatArea.addAreaPoint -182.653137/-343.556763
+CombatArea.addAreaPoint -330.799988/-428.187012
+CombatArea.addAreaPoint -480.900696/-411.958679
+CombatArea.addAreaPoint -609.729492/-275.509888
+CombatArea.addAreaPoint -699.958862/-280.369568
+CombatArea.addAreaPoint -905.292908/-469.389832
+CombatArea.addAreaPoint -1021.847046/-478.581665
+CombatArea.addAreaPoint -1016.093811/-1024.819336
+CombatArea.addAreaPoint 61.001587/-1017.284729
+CombatArea.addAreaPoint 161.205688/-754.421875
+CombatArea.addAreaPoint 159.202515/-713.441101
+CombatArea.addAreaPoint 95.446777/-579.610352
+CombatArea.addAreaPoint 14.740479/-500.005432
+CombatArea.addAreaPoint -125.162964/-377.862549
+CombatArea.team 1
+CombatArea.vehicles 4
+CombatArea.layer 7
+CombatArea.Inverted 1
+

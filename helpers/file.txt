@@ -1,0 +1,126 @@
+
+   rem [ObjectSpawner: Taliban_Vehicle_Zastava_1]
+   Object.create Taliban_Vehicle_Zastava_1
+   Object.absolutePosition 601.908/35.227/1298.468
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_Vehicle_Zastava_2]
+   Object.create Taliban_Vehicle_Zastava_2
+   Object.absolutePosition 580.358/34.993/1297.460
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_Vehicle_VBIED]
+   Object.create Taliban_Vehicle_VBIED
+   Object.absolutePosition 586.171/39.990/1235.035
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP2_Vehicle_DSHKm]
+   Object.create Taliban_CP2_Vehicle_DSHKm
+   Object.absolutePosition 1630.216/35.060/1823.614
+   Object.rotation -178.794/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP2_Vehicle_Zastava]
+   Object.create Taliban_CP2_Vehicle_Zastava
+   Object.absolutePosition 1642.060/35.295/1826.208
+   Object.rotation -174.772/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP2_Vehicle_Zastava2]
+   Object.create Taliban_CP2_Vehicle_Zastava2
+   Object.absolutePosition 1626.689/33.777/1838.270
+   Object.rotation 171.566/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_Zastava1]
+   Object.create Taliban_CP3_Vehicle_Zastava1
+   Object.absolutePosition 1836.605/84.075/457.102
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_Zastava2]
+   Object.create Taliban_CP3_Vehicle_Zastava2
+   Object.absolutePosition 1836.855/84.908/437.604
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_DSHKm]
+   Object.create Taliban_CP3_Vehicle_DSHKm
+   Object.absolutePosition 1824.927/83.943/457.796
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_VBIED]
+   Object.create Taliban_CP3_Vehicle_VBIED
+   Object.absolutePosition 1826.948/86.600/398.444
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_1_sply_1]
+   Object.create Taliban_OS_1_sply_1
+   Object.absolutePosition 582.681/34.863/1312.098
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_3_sply_3]
+   Object.create Taliban_OS_3_sply_3
+   Object.absolutePosition 1830.948/82.162/487.835
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_2_sply_2]
+   Object.create Taliban_OS_2_sply_2
+   Object.absolutePosition 1643.892/37.482/1806.833
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_1_Vehicle_technical]
+   Object.create Taliban_OS_1_Vehicle_technical
+   Object.absolutePosition 593.042/36.309/1277.786
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_1_technical_ammo]
+   Object.create Taliban_OS_1_technical_ammo
+   Object.absolutePosition 581.798/36.683/1275.510
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_2_technical_ammo]
+   Object.create Taliban_OS_2_technical_ammo
+   Object.absolutePosition 1636.724/33.204/1844.477
+   Object.rotation -174.610/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_3_technical_ammo]
+   Object.create Taliban_OS_3_technical_ammo
+   Object.absolutePosition 1837.315/84.451/448.946
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_3_sply2]
+   Object.create Taliban_OS_3_sply2
+   Object.absolutePosition 1826.507/84.441/448.439
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1

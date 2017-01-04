@@ -1,0 +1,704 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: USA_OS_main_VehicleSpwn_1]
+ObjectTemplate.create ObjectSpawner USA_OS_main_VehicleSpwn_1
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_VehicleSpwn_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 us_jep_hmmwv
+
+rem [ObjectSpawnerTemplate: Taliban_Vehicle_Zastava_1]
+ObjectTemplate.create ObjectSpawner Taliban_Vehicle_Zastava_1
+ObjectTemplate.activeSafe ObjectSpawner Taliban_Vehicle_Zastava_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_zastava900ak
+
+rem [ObjectSpawnerTemplate: Taliban_Vehicle_Zastava_2]
+ObjectTemplate.create ObjectSpawner Taliban_Vehicle_Zastava_2
+ObjectTemplate.activeSafe ObjectSpawner Taliban_Vehicle_Zastava_2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_zastava900ak
+
+rem [ObjectSpawnerTemplate: Taliban_Vehicle_VBIED]
+ObjectTemplate.create ObjectSpawner Taliban_Vehicle_VBIED
+ObjectTemplate.activeSafe ObjectSpawner Taliban_Vehicle_VBIED
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_trk_dumpster_bomber
+
+rem [ObjectSpawnerTemplate: Taliban_CP2_Vehicle_DSHKm]
+ObjectTemplate.create ObjectSpawner Taliban_CP2_Vehicle_DSHKm
+ObjectTemplate.activeSafe ObjectSpawner Taliban_CP2_Vehicle_DSHKm
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_zastava900ak
+
+rem [ObjectSpawnerTemplate: Taliban_CP2_Vehicle_Zastava]
+ObjectTemplate.create ObjectSpawner Taliban_CP2_Vehicle_Zastava
+ObjectTemplate.activeSafe ObjectSpawner Taliban_CP2_Vehicle_Zastava
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_zastava900ak
+
+rem [ObjectSpawnerTemplate: Taliban_CP2_Vehicle_Zastava2]
+ObjectTemplate.create ObjectSpawner Taliban_CP2_Vehicle_Zastava2
+ObjectTemplate.activeSafe ObjectSpawner Taliban_CP2_Vehicle_Zastava2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_technical_black
+
+rem [ObjectSpawnerTemplate: Taliban_CP3_Vehicle_Zastava1]
+ObjectTemplate.create ObjectSpawner Taliban_CP3_Vehicle_Zastava1
+ObjectTemplate.activeSafe ObjectSpawner Taliban_CP3_Vehicle_Zastava1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_zastava900ak
+
+rem [ObjectSpawnerTemplate: Taliban_CP3_Vehicle_Zastava2]
+ObjectTemplate.create ObjectSpawner Taliban_CP3_Vehicle_Zastava2
+ObjectTemplate.activeSafe ObjectSpawner Taliban_CP3_Vehicle_Zastava2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_technical_black
+
+rem [ObjectSpawnerTemplate: Taliban_CP3_Vehicle_DSHKm]
+ObjectTemplate.create ObjectSpawner Taliban_CP3_Vehicle_DSHKm
+ObjectTemplate.activeSafe ObjectSpawner Taliban_CP3_Vehicle_DSHKm
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_zastava900ak
+
+rem [ObjectSpawnerTemplate: Taliban_CP3_Vehicle_VBIED]
+ObjectTemplate.create ObjectSpawner Taliban_CP3_Vehicle_VBIED
+ObjectTemplate.activeSafe ObjectSpawner Taliban_CP3_Vehicle_VBIED
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_trk_dumpster_bomber
+
+rem [ObjectSpawnerTemplate: Taliban_OS_1_sply_1]
+ObjectTemplate.create ObjectSpawner Taliban_OS_1_sply_1
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_1_sply_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_tal
+ObjectTemplate.holdObject 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: Taliban_OS_3_sply_3]
+ObjectTemplate.create ObjectSpawner Taliban_OS_3_sply_3
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_3_sply_3
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_tal
+
+rem [ObjectSpawnerTemplate: Taliban_OS_2_sply_2]
+ObjectTemplate.create ObjectSpawner Taliban_OS_2_sply_2
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_2_sply_2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_tal
+
+rem [ObjectSpawnerTemplate: Taliban_OS_1_Vehicle_technical]
+ObjectTemplate.create ObjectSpawner Taliban_OS_1_Vehicle_technical
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_1_Vehicle_technical
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_technical_black
+
+rem [ObjectSpawnerTemplate: USA_OS_main_Humvee2]
+ObjectTemplate.create ObjectSpawner USA_OS_main_Humvee2
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_Humvee2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 us_jep_hmmwv
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply1]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply1
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply2]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply2
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply3]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply3
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply3
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply4]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply4
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply4
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply5]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply5
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply5
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply6]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply6
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply6
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply7]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply7
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply7
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_sply8]
+ObjectTemplate.create ObjectSpawner USA_OS_main_sply8
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_sply8
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_us
+
+rem [ObjectSpawnerTemplate: USA_OS_main_FOB]
+ObjectTemplate.create ObjectSpawner USA_OS_main_FOB
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_FOB
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 deployable_firebase
+
+rem [ObjectSpawnerTemplate: Taliban_OS_1_technical_ammo]
+ObjectTemplate.create ObjectSpawner Taliban_OS_1_technical_ammo
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_1_technical_ammo
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_support
+
+rem [ObjectSpawnerTemplate: Taliban_OS_2_technical_ammo]
+ObjectTemplate.create ObjectSpawner Taliban_OS_2_technical_ammo
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_2_technical_ammo
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_support
+
+rem [ObjectSpawnerTemplate: Taliban_OS_3_technical_ammo]
+ObjectTemplate.create ObjectSpawner Taliban_OS_3_technical_ammo
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_3_technical_ammo
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 civ_jep_support
+
+rem [ObjectSpawnerTemplate: Taliban_OS_3_sply2]
+ObjectTemplate.create ObjectSpawner Taliban_OS_3_sply2
+ObjectTemplate.activeSafe ObjectSpawner Taliban_OS_3_sply2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_tal
+
+rem [ObjectSpawnerTemplate: USA_OS_main_LogiTruckUSA]
+ObjectTemplate.create ObjectSpawner USA_OS_main_LogiTruckUSA
+ObjectTemplate.activeSafe ObjectSpawner USA_OS_main_LogiTruckUSA
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 us_trk_logistics
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: USA_OS_main_VehicleSpwn_1]
+   Object.create USA_OS_main_VehicleSpwn_1
+   Object.absolutePosition 1288.271/47.992/1161.503
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_Vehicle_Zastava_1]
+   Object.create Taliban_Vehicle_Zastava_1
+   Object.absolutePosition 601.908/35.227/1298.468
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_Vehicle_Zastava_2]
+   Object.create Taliban_Vehicle_Zastava_2
+   Object.absolutePosition 580.358/34.993/1297.460
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_Vehicle_VBIED]
+   Object.create Taliban_Vehicle_VBIED
+   Object.absolutePosition 586.171/39.990/1235.035
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP2_Vehicle_DSHKm]
+   Object.create Taliban_CP2_Vehicle_DSHKm
+   Object.absolutePosition 1630.216/35.060/1823.614
+   Object.rotation -178.794/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP2_Vehicle_Zastava]
+   Object.create Taliban_CP2_Vehicle_Zastava
+   Object.absolutePosition 1642.060/35.295/1826.208
+   Object.rotation -174.772/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP2_Vehicle_Zastava2]
+   Object.create Taliban_CP2_Vehicle_Zastava2
+   Object.absolutePosition 1626.689/33.777/1838.270
+   Object.rotation 171.566/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_Zastava1]
+   Object.create Taliban_CP3_Vehicle_Zastava1
+   Object.absolutePosition 1836.605/84.075/457.102
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_Zastava2]
+   Object.create Taliban_CP3_Vehicle_Zastava2
+   Object.absolutePosition 1836.855/84.908/437.604
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_DSHKm]
+   Object.create Taliban_CP3_Vehicle_DSHKm
+   Object.absolutePosition 1824.927/83.943/457.796
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_CP3_Vehicle_VBIED]
+   Object.create Taliban_CP3_Vehicle_VBIED
+   Object.absolutePosition 1826.948/86.600/398.444
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_1_sply_1]
+   Object.create Taliban_OS_1_sply_1
+   Object.absolutePosition 582.681/34.863/1312.098
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_3_sply_3]
+   Object.create Taliban_OS_3_sply_3
+   Object.absolutePosition 1830.948/82.162/487.835
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_2_sply_2]
+   Object.create Taliban_OS_2_sply_2
+   Object.absolutePosition 1643.892/37.482/1806.833
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_1_Vehicle_technical]
+   Object.create Taliban_OS_1_Vehicle_technical
+   Object.absolutePosition 593.042/36.309/1277.786
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_Humvee2]
+   Object.create USA_OS_main_Humvee2
+   Object.absolutePosition 1229.208/47.070/1153.982
+   Object.rotation -47.693/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply1]
+   Object.create USA_OS_main_sply1
+   Object.absolutePosition 1219.495/47.893/1116.552
+   Object.rotation 39.119/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply2]
+   Object.create USA_OS_main_sply2
+   Object.absolutePosition 1235.473/46.921/1157.266
+   Object.rotation 44.181/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply3]
+   Object.create USA_OS_main_sply3
+   Object.absolutePosition 1246.846/46.921/1175.195
+   Object.rotation -49.069/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply4]
+   Object.create USA_OS_main_sply4
+   Object.absolutePosition 1274.395/49.997/1205.436
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply5]
+   Object.create USA_OS_main_sply5
+   Object.absolutePosition 1275.315/46.921/1126.203
+   Object.rotation 31.146/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply6]
+   Object.create USA_OS_main_sply6
+   Object.absolutePosition 1298.900/46.921/1116.142
+   Object.rotation 96.634/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply7]
+   Object.create USA_OS_main_sply7
+   Object.absolutePosition 1298.371/46.985/1137.345
+   Object.rotation -167.539/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_sply8]
+   Object.create USA_OS_main_sply8
+   Object.absolutePosition 1216.540/47.893/1099.515
+   Object.rotation 37.470/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_FOB]
+   Object.create USA_OS_main_FOB
+   Object.absolutePosition 1243.722/47.196/1144.192
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_1_technical_ammo]
+   Object.create Taliban_OS_1_technical_ammo
+   Object.absolutePosition 581.798/36.683/1275.510
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 2
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_2_technical_ammo]
+   Object.create Taliban_OS_2_technical_ammo
+   Object.absolutePosition 1636.724/33.204/1844.477
+   Object.rotation -174.610/0.000/0.000
+   Object.setControlPointId 3
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_3_technical_ammo]
+   Object.create Taliban_OS_3_technical_ammo
+   Object.absolutePosition 1837.315/84.451/448.946
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: Taliban_OS_3_sply2]
+   Object.create Taliban_OS_3_sply2
+   Object.absolutePosition 1826.507/84.441/448.439
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 4
+   Object.layer 1
+
+   rem [ObjectSpawner: USA_OS_main_LogiTruckUSA]
+   Object.create USA_OS_main_LogiTruckUSA
+   Object.absolutePosition 1223.100/47.893/1134.893
+   Object.rotation -138.616/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: USA_SP_main_1]
+ObjectTemplate.create SpawnPoint USA_SP_main_1
+ObjectTemplate.activeSafe SpawnPoint USA_SP_main_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: USA_SP_main_1]
+Object.create USA_SP_main_1
+Object.absolutePosition 1269.223/47.404/1118.870
+Object.rotation 4.886/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: USA_SP_main_2]
+ObjectTemplate.create SpawnPoint USA_SP_main_2
+ObjectTemplate.activeSafe SpawnPoint USA_SP_main_2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: USA_SP_main_2]
+Object.create USA_SP_main_2
+Object.absolutePosition 1220.104/47.893/1112.201
+Object.rotation 60.406/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: USA_SP_main_3]
+ObjectTemplate.create SpawnPoint USA_SP_main_3
+ObjectTemplate.activeSafe SpawnPoint USA_SP_main_3
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: USA_SP_main_3]
+Object.create USA_SP_main_3
+Object.absolutePosition 1272.851/47.632/1190.445
+Object.rotation -168.949/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: Taliban_SP_1_1]
+ObjectTemplate.create SpawnPoint Taliban_SP_1_1
+ObjectTemplate.activeSafe SpawnPoint Taliban_SP_1_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+
+rem [SpawnPoint: Taliban_SP_1_1]
+Object.create Taliban_SP_1_1
+Object.absolutePosition 598.250/34.443/1313.153
+Object.rotation -171.829/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: Taliban_SP_1_2]
+ObjectTemplate.create SpawnPoint Taliban_SP_1_2
+ObjectTemplate.activeSafe SpawnPoint Taliban_SP_1_2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+
+rem [SpawnPoint: Taliban_SP_1_2]
+Object.create Taliban_SP_1_2
+Object.absolutePosition 581.990/35.707/1285.091
+Object.rotation 3.438/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: Taliban_SP_2_1]
+ObjectTemplate.create SpawnPoint Taliban_SP_2_1
+ObjectTemplate.activeSafe SpawnPoint Taliban_SP_2_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: Taliban_SP_2_1]
+Object.create Taliban_SP_2_1
+Object.absolutePosition 1623.301/36.348/1813.809
+Object.rotation 109.847/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: Taliban_SP_2_2]
+ObjectTemplate.create SpawnPoint Taliban_SP_2_2
+ObjectTemplate.activeSafe SpawnPoint Taliban_SP_2_2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+
+rem [SpawnPoint: Taliban_SP_2_2]
+Object.create Taliban_SP_2_2
+Object.absolutePosition 1642.895/38.329/1798.805
+Object.rotation -108.580/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: Taliban_SP_3_1]
+ObjectTemplate.create SpawnPoint Taliban_SP_3_1
+ObjectTemplate.activeSafe SpawnPoint Taliban_SP_3_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: Taliban_SP_3_1]
+Object.create Taliban_SP_3_1
+Object.absolutePosition 1820.718/82.185/483.500
+Object.rotation 144.024/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: Taliban_SP_3_2]
+ObjectTemplate.create SpawnPoint Taliban_SP_3_2
+ObjectTemplate.activeSafe SpawnPoint Taliban_SP_3_2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+
+rem [SpawnPoint: Taliban_SP_3_2]
+Object.create Taliban_SP_3_2
+Object.absolutePosition 1826.227/84.996/436.231
+Object.rotation 167.193/0.000/0.000
+Object.layer 1
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: USA_CP_main]
+ObjectTemplate.create ControlPoint USA_CP_main
+ObjectTemplate.activeSafe ControlPoint USA_CP_main
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName USA_CP_main
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: Taliban_CP_1]
+ObjectTemplate.create ControlPoint Taliban_CP_1
+ObjectTemplate.activeSafe ControlPoint Taliban_CP_1
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName Taliban_CP_1
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 2
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: Taliban_CP_2]
+ObjectTemplate.create ControlPoint Taliban_CP_2
+ObjectTemplate.activeSafe ControlPoint Taliban_CP_2
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName Taliban_CP_2
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 3
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: Taliban_CP_3]
+ObjectTemplate.create ControlPoint Taliban_CP_3
+ObjectTemplate.activeSafe ControlPoint Taliban_CP_3
+ObjectTemplate.modifiedByUser "Евгений"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName Taliban_CP_3
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 4
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: USA_CP_main]
+   Object.create USA_CP_main
+   Object.absolutePosition 1259.209/47.027/1134.411
+   Object.layer 1
+
+   rem [ControlPoint: Taliban_CP_1]
+   Object.create Taliban_CP_1
+   Object.absolutePosition 590.887/34.847/1298.861
+   Object.layer 1
+
+   rem [ControlPoint: Taliban_CP_2]
+   Object.create Taliban_CP_2
+   Object.absolutePosition 1631.146/38.755/1788.824
+   Object.layer 1
+
+   rem [ControlPoint: Taliban_CP_3]
+   Object.create Taliban_CP_3
+   Object.absolutePosition 1828.784/82.688/476.115
+   Object.layer 1
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_0_Default
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 1174.676025/1103.674561
+CombatArea.addAreaPoint 1232.380371/1055.284668
+CombatArea.addAreaPoint 1245.156982/1051.126221
+CombatArea.addAreaPoint 1254.905762/1055.237061
+CombatArea.addAreaPoint 1280.414307/1087.708496
+CombatArea.addAreaPoint 1294.782227/1094.130371
+CombatArea.addAreaPoint 1308.346680/1097.046143
+CombatArea.addAreaPoint 1326.570557/1107.518555
+CombatArea.addAreaPoint 1337.739502/1116.192383
+CombatArea.addAreaPoint 1341.638428/1125.409668
+CombatArea.addAreaPoint 1340.869141/1133.777832
+CombatArea.addAreaPoint 1339.842041/1136.473633
+CombatArea.addAreaPoint 1317.634033/1140.716309
+CombatArea.addAreaPoint 1309.857666/1161.430176
+CombatArea.addAreaPoint 1296.853271/1183.943115
+CombatArea.addAreaPoint 1291.420410/1195.915039
+CombatArea.addAreaPoint 1287.397461/1205.823730
+CombatArea.addAreaPoint 1281.621094/1215.468506
+CombatArea.addAreaPoint 1270.386719/1223.174072
+CombatArea.addAreaPoint 1262.915039/1222.955811
+CombatArea.addAreaPoint 1249.763184/1219.809814
+CombatArea.addAreaPoint 1233.890137/1207.767090
+CombatArea.addAreaPoint 1217.339111/1189.089355
+CombatArea.addAreaPoint 1211.392822/1181.513672
+CombatArea.addAreaPoint 1207.733154/1172.983398
+CombatArea.addAreaPoint 1207.270264/1159.205566
+CombatArea.addAreaPoint 1179.900635/1123.102295
+CombatArea.addAreaPoint 1174.063232/1113.879150
+CombatArea.addAreaPoint 1172.645752/1109.778809
+CombatArea.addAreaPoint 1172.853760/1106.407959
+CombatArea.team 1
+CombatArea.vehicles 4
+CombatArea.layer 1
+
