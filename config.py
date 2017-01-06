@@ -648,29 +648,15 @@ MAP_DODS = {
     'ramiel' : {
         'gpm_cq' : {
             128 : {
-                'CombatArea_0_Blackhawk_down' : {
-                    'name' : 'CombatArea_0_Blackhawk_down',
-                    'create' : False,
-                    'delete' : True,
-                    #'team' : 1, # we're changing to team 1
-                    #'vehicles' : 4,
-                    #'layer' : 4,
-                    #'inverted' : 0,
-                    #'areapoints' : [
-                    #    (2048.000000, -2048.000000),
-                    #    (2048.000000, 2048.000000),
-                    #    (-2048.000000, 2048.000000),
-                    #    (-2048.000000, -2048.000000)
-                    #    ]
-                    },
-                'CombatArea_0_Event' : {
-                    'name' : 'CombatArea_0_Event',
+                'CombatArea_34_Event' : {
+                    'name' : 'CombatArea_34_Event',
                     'create' : True,
                     'delete' : False,
+                    'modify' : False,
                     'team' : 0,
                     'vehicles' : 4,
                     'layer' : 7,
-                    'inverted' : 0,
+                    'inverted' : 1, #lets see if we can create new one and invert
                     'areapoints' : [
 						(34.882935, 544.660278),
                         (35.332764, 453.216187),
@@ -738,6 +724,10 @@ MAP_DODS = {
                         (-805.494141, -644.534241),
                         (-733.431519, -643.389038),
                         (-733.007690, -715.599731),
+                        (-1024.000000, -1024.000000),
+                        (-1024.000000, 1024.000000),
+                        (1024.000000, 1024.000000),
+                        (1024.000000, -1024.000000),
                         (-535.610229, -715.199585),
                         (-534.810120, -662.343506),
                         (-525.507446, -661.516724),
@@ -780,9 +770,10 @@ MAP_DODS = {
                         (106.303955, 544.588135),
                         ]
                     },
-                'CombatArea_0_Preparation' : {
-                    'name' : 'CombatArea_0_Preparation',
-                    'create' : True,
+                'CombatArea_36_Preparation' : {
+                    'name' : 'CombatArea_36_Preparation',
+                    'create' : False,
+                    'modify' : False,
                     'delete' : False,
                     'team' : 0,
                     'vehicles' : 4,

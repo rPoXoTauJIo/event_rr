@@ -61,9 +61,14 @@ CombatArea.addAreaPoint -689.490784/-526.941833
 CombatArea.addAreaPoint -671.382935/-555.005066
 CombatArea.addAreaPoint -672.173950/-569.781677
 CombatArea.addAreaPoint -805.157349/-571.981812
+CombatArea.addAreaPoint -805.157349/-571.981812
 CombatArea.addAreaPoint -805.494141/-644.534241
 CombatArea.addAreaPoint -733.431519/-643.389038
 CombatArea.addAreaPoint -733.007690/-715.599731
+CombatArea.addAreaPoint -1024.000000/-1024.0000000
+CombatArea.addAreaPoint -1024.000000/1024.0000000
+CombatArea.addAreaPoint 1024.000000/1024.0000000
+CombatArea.addAreaPoint 1024.000000/-1024.0000000
 CombatArea.addAreaPoint -535.610229/-715.199585
 CombatArea.addAreaPoint -534.810120/-662.343506
 CombatArea.addAreaPoint -525.507446/-661.516724

@@ -153,21 +153,48 @@ def setupDoD(map_name, map_gamemode, map_layer):
     for dod_set in C.MAP_DODS[map_name][map_gamemode][map_layer]:
         #host.rcon_invoke()
         #combatArea.active
-        if not C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['create']:
+        if C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['create']:
+            createDoD(C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set])
+        if C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['modify']:
             modifyDoD(C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set])
 
 def modifyDoD(properties):
+    if 'delete' in properties and properties['delete']:
+        host.rcon_invoke("""
+CombatArea.active %s
+CombatArea.deleteActiveCombatArea""" % (properties['name']))
+        D.debugMessage('CombatArea.deleteActiveCombatArea %s' % (properties['name']))
+        return #cause we dont need to do anything with deleted combat area
     if 'team' in properties:
         host.rcon_invoke("""
 CombatArea.active %s
 CombatArea.team %s""" % (properties['name'], properties['team']))
         D.debugMessage('CombatArea.team %s' % (properties['team']))
-    elif 'delete' in properties and properties['delete']:
-        host.rcon_invoke("""
-CombatArea.active %s
-CombatArea.deleteActiveCombatArea""" % (properties['name']))
-        D.debugMessage('CombatArea.deleteActiveCombatArea %s' % (properties['name']))
-
+    
+def createDoD(properties):
+    #area_strings = ('CombatArea.addAreaPoint ' + '/'.join(point) + '/n') for point in properties['areapoints']) # can't use generators
+    area_strings = []
+    for point in properties['areapoints']:
+        invoke_area_string = 'CombatArea.addAreaPoint ' + str(point[0]) + '/' + str(point[1])
+        area_strings.append(invoke_area_string)
+    invoke_area_strings = '\n'.join(area_strings)
+    invoke_string = """
+CombatArea.create %s
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.team %s
+CombatArea.vehicles %s
+CombatArea.layer %s
+CombatArea.Inverted %s
+""" % (properties['name'], properties['team'], properties['vehicles'], properties['layer'], properties['inverted'])
+    host.rcon_invoke(invoke_string)
+    D.debugMessage(invoke_string)
+    for point in properties['areapoints']:
+        invoke_area_string = 'CombatArea.addAreaPoint ' + str(point[0]) + '/' + str(point[1])
+        host.rcon_invoke(invoke_area_string)
+        D.debugMessage(invoke_area_string)
+    active = host.rcon_invoke('combatArea.getActiveCombatAreaName')
+    D.debugMessage(active)
 
 
 
