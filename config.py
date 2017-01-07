@@ -17,7 +17,7 @@ DEBUGS_DEFAULT = [
 
 # specify on which levels event script will run
 MAP_EVENT = [
-    ('ramiel', 'gpm_cq', 64), # pure for testing
+    #('ramiel', 'gpm_cq', 64), # pure for testing
     ('ramiel', 'gpm_cq', 128),
     ('bamyan', 'gpm_cq', 32),
     ]
@@ -158,89 +158,118 @@ MAP_SPAWNERS = {
             128 :[
                 # US default spawns
                 {
-                    'name' : 'us_main_jeep1',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_0',
+                    'delete' : False,
                     'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 20,
-                    'position' : (-692.033, 24.922, -663.341),
+                    'delay' : 600,
+                    'position' : (-640.291, 26.000, -654.993),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep2',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_1',
+                    'delete' : False,
                     'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 30,
-                    'position' : (-681.662, 24.922, -663.341),
+                    'delay' : 600,
+                    'position' : (-640.339, 26.000, -648.535),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep3',
-                    'template' : 'us_jep_hmmwv_mk19',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_2',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv_mk19',
                     'team' : 2,
-                    'delay' : 30,
-                    'position' : (-687.256, 24.922, -663.341),
+                    'delay' : 600,
+                    'position' : (-643.765, 26.000, -648.608),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep4',
-                    'template' : 'us_jep_hmmwv',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_3',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 30,
-                    'position' : (-697.435, 24.922, -663.341),
+                    'delay' : 600,
+                    'position' : (-647.249, 26.000, -655.122),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep5',
-                    'template' : 'us_jep_hmmwv',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_4',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 30,
-                    'position' : (-702.703, 24.922, -663.341),
+                    'delay' : 600,
+                    'position' : (-647.297, 26.000, -648.665),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep6',
-                    'template' : 'us_jep_hmmwv',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_5',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 60,
-                    'position' : (-692.033, 24.922, -653.341),
+                    'delay' : 600,
+                    'position' : (-651.151, 26.000, -648.747),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep7',
-                    'template' : 'us_jep_hmmwv',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_6',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 60,
-                    'position' : (-681.662, 24.922, -653.341),
+                    'delay' : 600,
+                    'position' : (-653.719, 26.000, -655.258),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep8',
-                    'template' : 'us_jep_hmmwv',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_7',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 60,
-                    'position' : (-687.256, 24.922, -653.341),
+                    'delay' : 600,
+                    'position' : (-659.606, 26.000, -655.333),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep9',
-                    'template' : 'us_jep_hmmwv',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_8',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 60,
-                    'position' : (-697.435, 24.922, -653.341),
+                    'delay' : 600,
+                    'position' : (-662.583, 26.000, -649.083),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
-                    'name' : 'us_main_jeep10',
-                    'template' : 'us_jep_hmmwv',
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_9',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv',
                     'team' : 2,
-                    'delay' : 60,
-                    'position' : (-702.703, 24.922, -653.341),
+                    'delay' : 600,
+                    'position' : (-656.599, 26.000, -648.798),
+                    'rotation' : (0.000, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_mk19_0',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv_uparmored_mk19',
+                    'team' : 2,
+                    'delay' : 600,
+                    'position' : (-628.403, 26.000, -633.676),
+                    'rotation' : (0.000, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_usmain_hmmwv_mk19_1',
+                    'delete' : False,
+					'template' : 'us_jep_hmmwv_uparmored_mk19',
+                    'team' : 2,
+                    'delay' : 600,
+                    'position' : (-624.692, 26.000, -633.736),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
                 # ARF default spawns
                 {
                     'name' : 'arf_main_atm1',
-                    'template' : 'civ_atm_technical',
+                    'delete' : False,
+					'template' : 'civ_atm_technical',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (40.809, 26, 523.824),
@@ -248,7 +277,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_atm2',
-                    'template' : 'civ_atm_technical',
+                    'delete' : False,
+					'template' : 'civ_atm_technical',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (46.8542, 26, 523.824),
@@ -256,7 +286,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_uralzu23_1',
-                    'template' : 'civ_aav_uralzu232',
+                    'delete' : False,
+					'template' : 'civ_aav_uralzu232',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (97.3817, 26, 513.75),
@@ -264,7 +295,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_uralzu23_2',
-                    'template' : 'civ_aav_uralzu232',
+                    'delete' : False,
+					'template' : 'civ_aav_uralzu232',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (92.2107, 26, 513.75),
@@ -272,7 +304,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_ammocar1',
-                    'template' : 'civ_jep_techincal_support',
+                    'delete' : False,
+					'template' : 'civ_jep_techincal_support',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (70.0343, 26, 511.307),
@@ -280,7 +313,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_ammocar2',
-                    'template' : 'civ_jep_techincal_support',
+                    'delete' : False,
+					'template' : 'civ_jep_techincal_support',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (75.0343, 26, 511.307),
@@ -288,7 +322,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_techincal1',
-                    'template' : 'civ_jep_techincal',
+                    'delete' : False,
+					'template' : 'civ_jep_techincal',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (45.0723, 26, 477.975),
@@ -296,7 +331,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_techincal2',
-                    'template' : 'civ_jep_techincal',
+                    'delete' : False,
+					'template' : 'civ_jep_techincal',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (45.0723, 26, 473.567),
@@ -304,7 +340,8 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_techincal3',
-                    'template' : 'civ_jep_techincal',
+                    'delete' : False,
+					'template' : 'civ_jep_techincal',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (100, 26, 477.975),
@@ -312,11 +349,706 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'arf_main_techincal4',
-                    'template' : 'civ_jep_techincal',
+                    'delete' : False,
+					'template' : 'civ_jep_techincal',
                     'team' : 1,
                     'delay' : 300,
                     'position' : (100, 26, 473.567),
                     'rotation' : (0.000, 0.000, 0.000)
+                    },
+                # Default spawners, deleting
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_acv',
+                    'delete' : True,
+                    'template' : 'arf_acv_technical',
+                    'team' : 1,
+                    'delay' : 30,
+                    'position' : (-434.807, 25.561, 585.825),
+                    'rotation' : (90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_jeep2',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv',
+                    'team' : 2,
+                    'delay' : 600,
+                    'position' : (-681.662, 24.922, -663.341),
+                    'rotation' : (18.774, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_10th_apc2',
+                    'delete' : True,
+                    'template' : 'fr_apc_vbci',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (-663.333, 25.0, -606.06),
+                    'rotation' : (48.766, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_crate',
+                    'delete' : True,
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 10,
+                    'position' : (-556.409, 25.0, -656.401),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew5_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-510.286, 29.28, 188.861),
+                    'rotation' : (90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_ammo1',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (83.105, 25.0, 492.553),
+                    'rotation' : (90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew3_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-798.903, 29.281, 753.191),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_mosque2_rally',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-357.975, 25.0, 420.629),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_mosque1_rally',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (251.686, 33.78, 348.532),
+                    'rotation' : (84.279, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_spawn',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-35.399, 25.0, 228.185),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_ammo5',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (80.379, 30.975, 808.549),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_jeep6',
+                    'delete' : True,
+                    'template' : 'civ_jep_car',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-426.699, 25.0, 609.527),
+                    'rotation' : (-180.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew7_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-227.732, 28.569, 349.682),
+                    'rotation' : (-135.306, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_usmain_helo1',
+                    'delete' : True,
+                    'template' : 'us_the_mh6',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (-328.938, 25.0, -636.964),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_mortar3',
+                    'delete' : True,
+                    'template' : 'mortar_team1',
+                    'team' : 1,
+                    'delay' : 1200,
+                    'position' : (-568.174, 24.96, 2562.838),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_bike3',
+                    'delete' : True,
+                    'template' : 'civ_bik_dirtbike',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-501.962, 25.0, 611.714),
+                    'rotation' : (29.476, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_tank',
+                    'delete' : True,
+                    'template' : 'fr_apc_vab',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (-685.489, 25.0, -628.714),
+                    'rotation' : (46.872, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_jeep3',
+                    'delete' : True,
+                    'template' : 'civ_aav_uralzu232',
+                    'team' : 1,
+                    'delay' : 600,
+                    'position' : (-491.092, 25.0, 578.76),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew8_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-503.754, 29.429, 252.449),
+                    'rotation' : (90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_city5_rally',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-945.856, 25.03, 410.563),
+                    'rotation' : (101.712, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_helo7_0',
+                    'delete' : True,
+                    'template' : 'us_the_uh60_soar',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (-580.718, 25.0, -670.87),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_10th_jeep5',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv',
+                    'team' : 2,
+                    'delay' : 600,
+                    'position' : (-702.703, 24.922, -663.557),
+                    'rotation' : (20.24, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew10_jeep1',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (30.726, 25.0, 432.36),
+                    'rotation' : (96.038, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_acv',
+                    'delete' : True,
+                    'template' : 'us_acv_stryker',
+                    'team' : 2,
+                    'delay' : 1,
+                    'position' : (-508.864, 25.58, -647.829),
+                    'rotation' : (-180.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_bike4',
+                    'delete' : True,
+                    'template' : 'civ_bik_dirtbike',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-501.801, 25.0, 615.612),
+                    'rotation' : (30.191, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_repairdepot',
+                    'delete' : True,
+                    'template' : 'vehicle_depot_tal',
+                    'team' : 1,
+                    'delay' : 1,
+                    'position' : (-478.798, 25.0, 622.616),
+                    'rotation' : (90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_city2_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (779.942, 21.458, -305.615),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_city4_car',
+                    'delete' : True,
+                    'template' : 'civ_jep_car_blue',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (82.879, 30.975, 829.592),
+                    'rotation' : (-111.847, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_deltaforce_crate2',
+                    'delete' : True,
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 10,
+                    'position' : (-300.174, 25.0, -653.157),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_10th_jeep4',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv',
+                    'team' : 2,
+                    'delay' : 600,
+                    'position' : (-697.435, 24.922, -663.476),
+                    'rotation' : (20.586, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_jeep5',
+                    'delete' : True,
+                    'template' : 'civ_jep_car_black',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-430.824, 25.0, 608.847),
+                    'rotation' : (162.17, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_bike1',
+                    'delete' : True,
+                    'template' : 'civ_bik_dirtbike',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-493.819, 25.0, 578.803),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_mortar2',
+                    'delete' : True,
+                    'template' : 'mortar_team1',
+                    'team' : 1,
+                    'delay' : 1200,
+                    'position' : (-782.23, 24.96, 2631.58),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_blackhawk2_spawn2',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-32.843, 25.019, 249.076),
+                    'rotation' : (-178.489, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_ammo1_0',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 10,
+                    'position' : (-456.467, 25.0, 583.509),
+                    'rotation' : (180.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_helo3',
+                    'delete' : True,
+                    'template' : 'us_the_uh60_soar',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (-599.177, 25.0, -669.998),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_ammo2_0',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 10,
+                    'position' : (-464.483, 25.0, 620.703),
+                    'rotation' : (-90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_10th_crate2',
+                    'delete' : True,
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 10,
+                    'position' : (-689.634, 24.922, -680.999),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew12_jeep3',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv_uparmored_mk19',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (36.438, 25.0, 435.326),
+                    'rotation' : (86.533, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_deltaforce_crate',
+                    'delete' : True,
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 10,
+                    'position' : (-364.004, 25.0, -643.047),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_jeep3',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv',
+                    'team' : 2,
+                    'delay' : 600,
+                    'position' : (-687.256, 24.922, -663.52),
+                    'rotation' : (21.355, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_depot',
+                    'delete' : True,
+                    'template' : 'vehicle_depot_us',
+                    'team' : 2,
+                    'delay' : 30,
+                    'position' : (-719.592, 25.0, -585.962),
+                    'rotation' : (-90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_city5_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-937.971, 25.185, 408.474),
+                    'rotation' : (41.886, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_10th_crate',
+                    'delete' : True,
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 10,
+                    'position' : (-727.645, 25.0, -665.829),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_usmain_helo6',
+                    'delete' : True,
+                    'template' : 'us_the_mh6',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (-310.522, 25.0, -636.971),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew12_cache',
+                    'delete' : True,
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (51.709, 25.01, 440.336),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew14_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-160.681, 33.391, 414.344),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew4_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-902.315, 33.421, 665.834),
+                    'rotation' : (-180.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_spg',
+                    'delete' : True,
+                    'template' : 'civ_atm_technical',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-421.085, 25.0, 596.528),
+                    'rotation' : (83.425, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_10th_apc1',
+                    'delete' : True,
+                    'template' : 'fr_apc_vbci',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (-675.288, 25.0, -617.879),
+                    'rotation' : (46.872, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew11_jeep1',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (44.634, 25.0, 434.05),
+                    'rotation' : (86.533, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_bike2',
+                    'delete' : True,
+                    'template' : 'civ_bik_dirtbike',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-502.288, 25.0, 607.706),
+                    'rotation' : (32.479, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew11_cache',
+                    'delete' : True,
+                    'template' : 'fixed_supply_crate_us',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (-88.748, 29.113, 106.099),
+                    'rotation' : (90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew1_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-730.793, 33.391, 512.536),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_mortar1',
+                    'delete' : True,
+                    'template' : 'mortar_team1',
+                    'team' : 1,
+                    'delay' : 1200,
+                    'position' : (-622.97, 24.96, 2686.124),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_ammo2',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-30.164, 25.0, 236.698),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_mosque2_crate',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 10,
+                    'position' : (-373.231, 25.218, 432.545),
+                    'rotation' : (-180.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_city2_car',
+                    'delete' : True,
+                    'template' : 'civ_jep_car',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (776.414, 21.458, -286.483),
+                    'rotation' : (154.332, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_jeep1',
+                    'delete' : True,
+                    'template' : 'us_jep_hmmwv_mk19',
+                    'team' : 2,
+                    'delay' : 600,
+                    'position' : (-692.033, 24.922, -663.698),
+                    'rotation' : (18.848, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew2_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-666.689, 29.328, 732.089),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew15_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-624.837, 25.127, 445.746),
+                    'rotation' : (-90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_mortar4',
+                    'delete' : True,
+                    'template' : 'mortar_team1',
+                    'team' : 1,
+                    'delay' : 1200,
+                    'position' : (-671.26, 24.96, 2647.892),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_jeep1',
+                    'delete' : True,
+                    'template' : 'civ_jep_support_logistics',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-477.833, 25.0, 596.384),
+                    'rotation' : (-92.085, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_spawn3',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (86.624, 30.975, 816.29),
+                    'rotation' : (-153.243, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_mosque1_crate',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 10,
+                    'position' : (254.13, 33.843, 362.261),
+                    'rotation' : (-180.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_jeep4',
+                    'delete' : True,
+                    'template' : 'civ_jep_technical',
+                    'team' : 1,
+                    'delay' : 600,
+                    'position' : (-501.637, 25.0, 578.395),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_mosque1_rally2',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (288.171, 33.78, 358.014),
+                    'rotation' : (-90.857, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_city5_ins_jeep_3',
+                    'delete' : True,
+                    'template' : 'civ_jep_car_blue',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-951.654, 25.03, 397.547),
+                    'rotation' : (-90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_usmain_helo5',
+                    'delete' : True,
+                    'template' : 'us_the_mh6',
+                    'team' : 2,
+                    'delay' : 99999,
+                    'position' : (-274.838, 25.0, -637.14),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_usmain_helo4',
+                    'delete' : True,
+                    'template' : 'us_ahe_ah6',
+                    'team' : 2,
+                    'delay' : 1200,
+                    'position' : (-257.087, 25.0, -636.708),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_jeep2',
+                    'delete' : True,
+                    'template' : 'civ_jep_technical_red',
+                    'team' : 1,
+                    'delay' : 600,
+                    'position' : (-484.515, 25.0, 578.685),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_160th_helo7',
+                    'delete' : True,
+                    'template' : 'us_ahe_ah6',
+                    'team' : 2,
+                    'delay' : 1200,
+                    'position' : (-239.338, 25.0, -636.895),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew13_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-99.253, 25.02, 573.245),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_jeep7',
+                    'delete' : True,
+                    'template' : 'civ_jep_technical',
+                    'team' : 1,
+                    'delay' : 600,
+                    'position' : (-422.238, 25.0, 609.841),
+                    'rotation' : (-180.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_10th_logi',
+                    'delete' : True,
+                    'template' : 'us_trk_logistics',
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (-716.998, 25.0, -577.791),
+                    'rotation' : (90.987, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_crew6_ammo',
+                    'delete' : True,
+                    'template' : 'ammocache',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (-254.281, 33.391, 199.754),
+                    'rotation' : (-90.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_habr_gidr_hq_spawn4',
+                    'delete' : True,
+                    'template' : 'rallypoint_arf_placeable',
+                    'team' : 1,
+                    'delay' : 99999,
+                    'position' : (82.942, 25.0, 508.928),
+                    'rotation' : (-156.886, 0.0, 0.0)
                     },
                 ]
             }

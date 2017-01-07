@@ -4,6 +4,7 @@ import host
 
 #importing PR packages
 import game.realitycore as realitycore
+import game.realitytimer as realitytimer
 
 # importing custom modules
 import advdebug as D
@@ -27,20 +28,34 @@ def deinit():
 # onGameStatusChanged
 # ------------------------------------------------------------------------
 def onGameStatusChanged(status):
+    if status == bf2.GameStatus.Loaded:
+        # time critical tasks and should be done asap
+        D.debugMessage('Event init stage0')
+        init_event_stage_0()
     if status == bf2.GameStatus.Playing: # game is now in playing state
         # registering chatMessage handler
         #host.registerHandler('ChatMessage', onChatMessage, 1)
-        D.debugMessage('Event init start')
-        init_event()
+        D.debugMessage('Event init stage 1')
+        init_event_stage_1()
         D.debugMessage('Event init finished')
-
-def init_event():
+        
+def init_event_stage_0():
     map_name = bf2.gameLogic.getMapName()
     map_gamemode = bf2.serverSettings.getGameMode()
     map_layer = realitycore.g_mapLayer
-    D.debugMessage('Running %s(%s, %s)' % (map_name, map_gamemode, map_layer))
     if (map_name, map_gamemode, map_layer) in C.MAP_EVENT:
-        D.debugMessage('Found %s(%s, %s) in config' % (map_name, map_gamemode, map_layer))
+        try:
+            if map_name in C.MAP_SPAWNERS:
+                deleteSpawners(map_name, map_gamemode, map_layer)
+        except:
+            D.errorMessage()
+    
+
+def init_event_stage_1():
+    map_name = bf2.gameLogic.getMapName()
+    map_gamemode = bf2.serverSettings.getGameMode()
+    map_layer = realitycore.g_mapLayer
+    if (map_name, map_gamemode, map_layer) in C.MAP_EVENT:
         #D.debugMessage(getObjectSpawners())
         try:
             if map_name in C.MAP_FLAGS:
@@ -55,8 +70,6 @@ def init_event():
                 setupDoD(map_name, map_gamemode, map_layer)
         except:
             D.errorMessage()
-        #D.debugMessage('\n checking afterspawns')
-        #D.debugMessage(getObjectSpawners())
 
 # python 2.3.4 cant do [v for v in list]
 def getbf2str(tuple, sep='/'):
@@ -90,14 +103,51 @@ def setupFlags(map_name, map_gamemode, map_layer):
     
 def setupSpawners(map_name, map_gamemode, map_layer):
     for spawner_set in C.MAP_SPAWNERS[map_name][map_gamemode][map_layer]:
-        #if spawner_set['name'] in getObjectSpawners():
-            #continue
+        if spawner_set['name'] in getObjectSpawners():
+            continue
         D.debugMessage('Spawning "%s" %s at %s' % (
             spawner_set['name'],
             spawner_set['template'],
             getbf2str(spawner_set['position']))
             )
         spawnAsset(spawner_set)
+
+def deleteSpawners(map_name, map_gamemode, map_layer):
+    mapObjectsSpawners = bf2.objectManager.getObjectsOfType('dice.hfe.world.ObjectTemplate.ObjectSpawner')
+    
+    delete = []
+    
+    for spawner_set in C.MAP_SPAWNERS[map_name][map_gamemode][map_layer]:
+        if spawner_set['delete']:
+            delete.append(spawner_set['name'])
+
+    for mapSpawner in mapObjectsSpawners:
+        spawner_name = mapSpawner.templateName
+
+        if spawner_name in delete:
+            # acquiring spawner object&template
+            # I DONT KNOW WHY THIS EVEN WORKS
+            object = host.rcon_invoke("""
+                objecttemplate.active %s
+                objecttemplate.objecttemplate
+                """ % spawner_name)
+
+            # removing spawn&spawner
+            host.rcon_invoke("""
+                objecttemplate.nrofobjecttospawn 0
+                objecttemplate.remove
+                """)
+            
+
+            D.debugMessage('deleteSpawners(): removed.spawner = %s' % (spawner_name))
+            D.debugMessage('deleteSpawners(): removed.PCOtemplate = %s' % (object))
+
+
+def onGetSpawnersExpire(data = ''):
+    for spawner in bf2.objectManager.getObjectsOfType('dice.hfe.world.ObjectTemplate.ObjectSpawner'):
+        D.debugMessage(spawner.templateName)
+
+
 
 
 def spawnAsset(properties):
