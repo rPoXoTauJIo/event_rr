@@ -46,9 +46,17 @@ def init_event_stage_0():
     if (map_name, map_gamemode, map_layer) in C.MAP_EVENT:
         try:
             if map_name in C.MAP_SPAWNERS:
-                deleteSpawners(map_name, map_gamemode, map_layer)
+                if map_gamemode in C.MAP_SPAWNERS[map_name]:
+                    if map_layer in C.MAP_SPAWNERS[map_name][map_gamemode]:
+                        deleteSpawners(map_name, map_gamemode, map_layer)
         except:
             D.errorMessage()
+        '''
+        if map_name in C.MAP_SPAWNPOINTS:
+            if map_gamemode in C.MAP_SPAWNPOINTS[map_name]:
+                if map_layer in C.MAP_SPAWNPOINTS[map_name][map_gamemode]:
+                    setupSpawnpoints(map_name, map_gamemode, map_layer)
+        '''
     
 
 def init_event_stage_1():
@@ -59,14 +67,28 @@ def init_event_stage_1():
         #D.debugMessage(getObjectSpawners())
         try:
             if map_name in C.MAP_FLAGS:
-                setupFlags(map_name, map_gamemode, map_layer)
+                if map_gamemode in C.MAP_FLAGS[map_name]:
+                    if map_layer in C.MAP_FLAGS[map_name][map_gamemode]:
+                        setupFlags(map_name, map_gamemode, map_layer)
             if map_name in C.MAP_HIDEOUTS:
-                pass
-                #setupHideouts(map_name, map_gamemode, map_layer)
+                if map_gamemode in C.MAP_HIDEOUTS[map_name]:
+                    if map_layer in C.MAP_HIDEOUTS[map_name][map_gamemode]:
+                        pass
+                        #setupHideouts(map_name, map_gamemode, map_layer)
+            '''
+            if map_name in C.MAP_SPAWNPOINTS:
+                if map_gamemode in C.MAP_SPAWNPOINTS[map_name]:
+                    if map_layer in C.MAP_SPAWNPOINTS[map_name][map_gamemode]:
+                        setupSpawnpoints(map_name, map_gamemode, map_layer)
+            '''
             if map_name in C.MAP_SPAWNERS:
-                setupSpawners(map_name, map_gamemode, map_layer)
+                if map_gamemode in C.MAP_SPAWNERS[map_name]:
+                    if map_layer in C.MAP_SPAWNERS[map_name][map_gamemode]:
+                        setupSpawners(map_name, map_gamemode, map_layer)
             if map_name in C.MAP_DODS:
-                setupDoD(map_name, map_gamemode, map_layer)
+                if map_gamemode in C.MAP_DODS[map_name]:
+                    if map_layer in C.MAP_DODS[map_name][map_gamemode]:
+                        setupDoD(map_name, map_gamemode, map_layer)
         except:
             D.errorMessage()
 
@@ -84,21 +106,27 @@ def getObjectSpawners():
     for spawner in spawners:
         spawnerTemplates.append(str(spawner.templateName))
     return spawnerTemplates
-    
-    
+
+# this doesn't work
+def setupSpawnpoints(map_name, map_gamemode, map_layer):
+    spawnpoints = bf2.objectManager.getObjectsOfType('dice.hfe.world.ObjectTemplate.Spawnpoint')
+    for spawnpoint in spawnpoints:
+        spawn_name = spawnpoint.templateName
+        object = host.rcon_invoke("""
+            objecttemplate.active %s
+            objecttemplate.objecttemplate
+            """ % spawn_name)
+        D.debugMessage('setupSpawnpoints(): %s: %s' % (str(spawn_name), str(object)))
 
 def setupFlags(map_name, map_gamemode, map_layer):
     for cp in realitycore.cleanListOfObjects(bf2.objectManager.getObjectsOfType(\
 			'dice.hfe.world.ObjectTemplate.ControlPoint')):
 
 		# checking for movable flags
-        if map_name in C.MAP_FLAGS.keys():
-            if map_gamemode in C.MAP_FLAGS[map_name].keys():
-                if map_layer in C.MAP_FLAGS[map_name][map_gamemode].keys():
-                    if cp.templateName in C.MAP_FLAGS[map_name][map_gamemode][map_layer].keys():
-                        position = C.MAP_FLAGS[map_name][map_gamemode][map_layer][cp.templateName]
-                        cp.setPosition((position[0], position[1], position[2])) # because setPosition((x, y, z))
-                        D.debugMessage('setupFlags(): moved flag %s to %s' % (str(cp.templateName), str(position)))
+        if cp.templateName in C.MAP_FLAGS[map_name][map_gamemode][map_layer].keys():
+            position = C.MAP_FLAGS[map_name][map_gamemode][map_layer][cp.templateName]
+            cp.setPosition((position[0], position[1], position[2])) # because setPosition((x, y, z))
+            D.debugMessage('setupFlags(): moved flag %s to %s' % (str(cp.templateName), str(position)))
     
 def setupSpawners(map_name, map_gamemode, map_layer):
     for spawner_set in C.MAP_SPAWNERS[map_name][map_gamemode][map_layer]:

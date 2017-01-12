@@ -152,6 +152,56 @@ MAP_OBJECTIVES = {
         }
     }
 
+MAP_SPAWNPOINTS = {
+    'bamyan' : {
+        'gpm_cq' : {
+            32 :[
+                {
+                    'name' : 'cpname_bamyan_aas32_opformain_2_0',
+                    'delete' : True,
+                    'cpid' : 310,
+                    'team' : 1,
+                    'position' : (-1871.244, 1.024, 1937.06),
+                    'rotation' : (-173.301, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_bamyan_aas32_usmain_1_0',
+                    'delete' : True,
+                    'cpid' : 301,
+                    'team' : 1,
+                    'position' : (-1207.865, 93.981, -1999.086),
+                    'rotation' : (-77.274, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_bamyan_aas32_opformain_1_0',
+                    'delete' : True,
+                    'cpid' : 310,
+                    'team' : 1,
+                    'position' : (-1904.734, 1.024, 1914.375),
+                    'rotation' : (89.952, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_bamyan_aas32_opformain_3_0',
+                    'delete' : True,
+                    'cpid' : 310,
+                    'team' : 1,
+                    'position' : (-1898.508, 1.024, 1945.381),
+                    'rotation' : (-174.618, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_bamyan_aas32_usmain_2_0',
+                    'delete' : True,
+                    'cpid' : 301,
+                    'team' : 1,
+                    'position' : (-1208.548, 93.981, -2016.996),
+                    'rotation' : (-86.379, 0.0, 0.0)
+                    },
+                
+                ]
+            }
+        }
+    }
+
 MAP_SPAWNERS = {
     'ramiel' : {
         'gpm_cq': {
