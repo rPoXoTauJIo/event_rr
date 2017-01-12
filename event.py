@@ -38,7 +38,7 @@ def onGameStatusChanged(status):
         D.debugMessage('Event init stage 1')
         init_event_stage_1()
         D.debugMessage('Event init finished')
-        
+
 def init_event_stage_0():
     map_name = bf2.gameLogic.getMapName()
     map_gamemode = bf2.serverSettings.getGameMode()
@@ -59,8 +59,7 @@ def init_event_stage_1():
         #D.debugMessage(getObjectSpawners())
         try:
             if map_name in C.MAP_FLAGS:
-                pass
-                #setupFlags(map_name, map_gamemode, map_layer)
+                setupFlags(map_name, map_gamemode, map_layer)
             if map_name in C.MAP_HIDEOUTS:
                 pass
                 #setupHideouts(map_name, map_gamemode, map_layer)
@@ -118,7 +117,7 @@ def deleteSpawners(map_name, map_gamemode, map_layer):
     delete = []
     
     for spawner_set in C.MAP_SPAWNERS[map_name][map_gamemode][map_layer]:
-        if spawner_set['delete']:
+        if 'delete' in spawner_set and spawner_set['delete']:
             delete.append(spawner_set['name'])
 
     for mapSpawner in mapObjectsSpawners:
@@ -203,9 +202,9 @@ def setupDoD(map_name, map_gamemode, map_layer):
     for dod_set in C.MAP_DODS[map_name][map_gamemode][map_layer]:
         #host.rcon_invoke()
         #combatArea.active
-        if C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['create']:
+        if 'create' in C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set] and C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['create']:
             createDoD(C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set])
-        if C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['modify']:
+        if 'modify' in C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set] and C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set]['modify']:
             modifyDoD(C.MAP_DODS[map_name][map_gamemode][map_layer][dod_set])
 
 def modifyDoD(properties):

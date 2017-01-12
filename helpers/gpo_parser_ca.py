@@ -24,7 +24,7 @@ class Spawner:
         self.rotation = (0.0, 0.0, 0.0)
         self.output_str = ''
 
-with open('gameplayobjects_ramiel_cq128.con') as gpo:
+with open('gameplayobjects_bamyan_cq32.con') as gpo:
     file = gpo.read()
 
 spawners = {}

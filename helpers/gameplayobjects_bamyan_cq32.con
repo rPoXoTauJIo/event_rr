@@ -1,0 +1,1629 @@
+run ../../../Init_cqalt.con
+
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_depot]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_depot
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_depot
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 vehicle_depot_us
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_hmmwv1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_uparmored
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_hmmwv2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_uparmored
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_hmmwv3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_uparmored
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_hmmwv4]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv4
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv4
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_uparmored
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_hmmwv6]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv6
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv6
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_hmmwv5]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv5
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_hmmwv5
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_logi1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_logi1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_logi1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_trk_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_logi2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_logi2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_logi2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_trk_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_trans1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_trans1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_trans1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_trk_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_trans2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_trans2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_trans2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_the_mv22
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_command]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_command
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_command
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_acv_lavc2
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_support1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_support1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_support1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_trk_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_support2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_support2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_support2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_trk_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_ah]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_ah
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_ah
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jet_a10a
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_checkpoint4_firebase4]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_checkpoint4_firebase4
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_checkpoint4_firebase4
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rallypoint_us_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_checkpoint5_firebase5]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_checkpoint5_firebase5
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_checkpoint5_firebase5
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rallypoint_us_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_checkpoint3_firebase3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_checkpoint3_firebase3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_checkpoint3_firebase3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rallypoint_us_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_checkpoint2_firebase2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_checkpoint2_firebase2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_checkpoint2_firebase2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rallypoint_us_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_checkpoint1_firebase1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_checkpoint1_firebase1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_checkpoint1_firebase1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rallypoint_us_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_car1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_car1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_car1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_support_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_car2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_car2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_car2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_support_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_car3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_car3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_car3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_technical_black
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_car4]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_car4
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_car4
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_zastava900ak
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_aav1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_aav1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_aav1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_aav_uralzu232
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_van1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_van1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_van1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_zastava900ak
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_van2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_van2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_van2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_zastava900ak
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_van3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_van3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_van3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_zastava900ak
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_mg1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_mg1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_mg1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_atm_technical_rocket
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_mg2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_mg2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_mg2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_aav_uralzu232
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_spg1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_spg1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_spg1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_atm_technical
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_spg2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_spg2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_spg2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_atm_technical
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_car5]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_car5
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_car5
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_technical_black
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_depot]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_depot
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_depot
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 vehicle_depot_tal
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_command]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_command
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_command
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_tal
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_crate1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_crate1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_crate1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_crate2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_crate2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_crate2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_tal
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_loyspawn]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_loyspawn
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_loyspawn
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rallypoint_us_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_hmmwvnorespawn]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_hmmwvnorespawn
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_hmmwvnorespawn
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_bomber1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_bomber1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_bomber1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_bomber_white
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_gary]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_gary
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_gary
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_trk_dumpster_bomber
+ObjectTemplate.minSpawnDelay 1200
+ObjectTemplate.maxSpawnDelay 1200
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_crate2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_crate2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_crate2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_crate3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_crate3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_crate3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_us
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_checkpoint9_0]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_checkpoint9_0
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_checkpoint9_0
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rallypoint_us_placeable
+ObjectTemplate.minSpawnDelay 99999
+ObjectTemplate.maxSpawnDelay 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_blue
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_blue
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar4]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar4
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar4
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar5]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar5
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar5
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_black
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar6]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar6
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar6
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_black
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar7]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar7
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar7
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar8]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar8
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar8
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar9]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar9
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar9
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_blue
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar10]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar10
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar10
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car_blue
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar11]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar11
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar11
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_opformain_citycar12]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_opformain_citycar12
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_opformain_citycar12
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 civ_jep_car
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 12000
+ObjectTemplate.Distance 100
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_logi3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_logi3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_logi3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 us_jep_hmmwv_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.Distance 100
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_artillery1]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_artillery1
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_artillery1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 artillery_team2
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_artillery2]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_artillery2
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_artillery2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 artillery_team2
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_bamyan_aas32_usmain_artillery3]
+ObjectTemplate.create ObjectSpawner cpname_bamyan_aas32_usmain_artillery3
+ObjectTemplate.activeSafe ObjectSpawner cpname_bamyan_aas32_usmain_artillery3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 artillery_team2
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_depot]
+   Object.create cpname_bamyan_aas32_usmain_depot
+   Object.absolutePosition -1244.821/93.981/-1980.843
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_hmmwv1]
+   Object.create cpname_bamyan_aas32_usmain_hmmwv1
+   Object.absolutePosition -1192.653/93.817/-2026.846
+   Object.rotation 14.748/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_hmmwv2]
+   Object.create cpname_bamyan_aas32_usmain_hmmwv2
+   Object.absolutePosition -1192.816/93.981/-2019.035
+   Object.rotation 14.748/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_hmmwv3]
+   Object.create cpname_bamyan_aas32_usmain_hmmwv3
+   Object.absolutePosition -1192.792/93.981/-2010.543
+   Object.rotation 14.748/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_hmmwv4]
+   Object.create cpname_bamyan_aas32_usmain_hmmwv4
+   Object.absolutePosition -1192.871/93.981/-2002.151
+   Object.rotation 14.748/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_hmmwv6]
+   Object.create cpname_bamyan_aas32_usmain_hmmwv6
+   Object.absolutePosition -1178.164/93.981/-2015.801
+   Object.rotation 2.515/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_hmmwv5]
+   Object.create cpname_bamyan_aas32_usmain_hmmwv5
+   Object.absolutePosition -1178.304/93.981/-2027.115
+   Object.rotation -2.294/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_logi1]
+   Object.create cpname_bamyan_aas32_usmain_logi1
+   Object.absolutePosition -1244.801/93.981/-1994.292
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_logi2]
+   Object.create cpname_bamyan_aas32_usmain_logi2
+   Object.absolutePosition -1244.719/93.981/-2000.222
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_trans1]
+   Object.create cpname_bamyan_aas32_usmain_trans1
+   Object.absolutePosition -1244.906/93.981/-2005.873
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_trans2]
+   Object.create cpname_bamyan_aas32_usmain_trans2
+   Object.absolutePosition -1230.351/93.981/-2021.379
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_command]
+   Object.create cpname_bamyan_aas32_usmain_command
+   Object.absolutePosition -1206.396/94.789/-2027.705
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_support1]
+   Object.create cpname_bamyan_aas32_usmain_support1
+   Object.absolutePosition -1200.433/93.981/-1978.078
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_support2]
+   Object.create cpname_bamyan_aas32_usmain_support2
+   Object.absolutePosition -1200.473/93.981/-1972.781
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_ah]
+   Object.create cpname_bamyan_aas32_usmain_ah
+   Object.absolutePosition 90.961/82.103/-1718.120
+   Object.rotation 160.900/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_checkpoint4_firebase4]
+   Object.create cpname_bamyan_aas32_checkpoint4_firebase4
+   Object.absolutePosition 317.622/55.776/-32.910
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 308
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_checkpoint5_firebase5]
+   Object.create cpname_bamyan_aas32_checkpoint5_firebase5
+   Object.absolutePosition 1248.937/47.705/1132.770
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 309
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_checkpoint3_firebase3]
+   Object.create cpname_bamyan_aas32_checkpoint3_firebase3
+   Object.absolutePosition -637.001/32.833/215.342
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 305
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_checkpoint2_firebase2]
+   Object.create cpname_bamyan_aas32_checkpoint2_firebase2
+   Object.absolutePosition -1283.901/36.166/604.771
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 306
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_checkpoint1_firebase1]
+   Object.create cpname_bamyan_aas32_checkpoint1_firebase1
+   Object.absolutePosition -559.274/17.389/1040.196
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 307
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_car1]
+   Object.create cpname_bamyan_aas32_opformain_car1
+   Object.absolutePosition -1877.290/1.024/1937.202
+   Object.rotation -172.511/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_car2]
+   Object.create cpname_bamyan_aas32_opformain_car2
+   Object.absolutePosition -1881.596/1.024/1937.768
+   Object.rotation -172.511/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_car3]
+   Object.create cpname_bamyan_aas32_opformain_car3
+   Object.absolutePosition -1894.105/1.024/1939.330
+   Object.rotation -172.511/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_car4]
+   Object.create cpname_bamyan_aas32_opformain_car4
+   Object.absolutePosition -1885.800/1.024/1938.325
+   Object.rotation -172.511/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_aav1]
+   Object.create cpname_bamyan_aas32_opformain_aav1
+   Object.absolutePosition -1905.586/1.024/1896.856
+   Object.rotation 98.188/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_van1]
+   Object.create cpname_bamyan_aas32_opformain_van1
+   Object.absolutePosition -1872.933/1.024/1910.650
+   Object.rotation -82.500/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_van2]
+   Object.create cpname_bamyan_aas32_opformain_van2
+   Object.absolutePosition -1872.488/1.024/1914.318
+   Object.rotation -82.500/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_van3]
+   Object.create cpname_bamyan_aas32_opformain_van3
+   Object.absolutePosition -1872.004/1.024/1917.775
+   Object.rotation -82.500/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_mg1]
+   Object.create cpname_bamyan_aas32_opformain_mg1
+   Object.absolutePosition -1901.171/1.024/1929.058
+   Object.rotation 101.462/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_mg2]
+   Object.create cpname_bamyan_aas32_opformain_mg2
+   Object.absolutePosition -1896.733/1.024/1895.686
+   Object.rotation 98.199/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_spg1]
+   Object.create cpname_bamyan_aas32_opformain_spg1
+   Object.absolutePosition -1901.984/1.024/1924.628
+   Object.rotation 101.462/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_spg2]
+   Object.create cpname_bamyan_aas32_opformain_spg2
+   Object.absolutePosition -1902.749/1.024/1920.270
+   Object.rotation 101.462/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_car5]
+   Object.create cpname_bamyan_aas32_opformain_car5
+   Object.absolutePosition -1890.005/1.024/1938.775
+   Object.rotation -172.500/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_depot]
+   Object.create cpname_bamyan_aas32_opformain_depot
+   Object.absolutePosition -1864.337/1.024/1924.554
+   Object.rotation 97.500/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_command]
+   Object.create cpname_bamyan_aas32_opformain_command
+   Object.absolutePosition -1898.625/1.024/1910.563
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_crate1]
+   Object.create cpname_bamyan_aas32_usmain_crate1
+   Object.absolutePosition -1198.097/93.981/-2007.937
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_crate2]
+   Object.create cpname_bamyan_aas32_opformain_crate2
+   Object.absolutePosition -1905.631/1.024/1941.369
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_loyspawn]
+   Object.create cpname_bamyan_aas32_usmain_loyspawn
+   Object.absolutePosition -61.508/82.103/-1762.174
+   Object.rotation -15.982/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_hmmwvnorespawn]
+   Object.create cpname_bamyan_aas32_usmain_hmmwvnorespawn
+   Object.absolutePosition 155.031/82.103/-1652.678
+   Object.rotation -9.831/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_bomber1]
+   Object.create cpname_bamyan_aas32_opformain_bomber1
+   Object.absolutePosition -1914.166/1.024/1898.521
+   Object.rotation 100.026/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_gary]
+   Object.create cpname_bamyan_aas32_opformain_gary
+   Object.absolutePosition -1923.253/1.024/1900.373
+   Object.rotation 99.153/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_crate2]
+   Object.create cpname_bamyan_aas32_usmain_crate2
+   Object.absolutePosition -1212.096/93.981/-2012.696
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_crate3]
+   Object.create cpname_bamyan_aas32_usmain_crate3
+   Object.absolutePosition -1212.109/93.981/-2000.640
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_checkpoint9_0]
+   Object.create cpname_bamyan_aas32_checkpoint9_0
+   Object.absolutePosition 518.162/50.024/833.958
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 312
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar1]
+   Object.create cpname_bamyan_aas32_opformain_citycar1
+   Object.absolutePosition -647.559/17.389/1079.906
+   Object.rotation -83.725/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar2]
+   Object.create cpname_bamyan_aas32_opformain_citycar2
+   Object.absolutePosition -657.451/15.539/1249.283
+   Object.rotation -63.054/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar3]
+   Object.create cpname_bamyan_aas32_opformain_citycar3
+   Object.absolutePosition -556.333/15.441/1167.781
+   Object.rotation -65.888/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar4]
+   Object.create cpname_bamyan_aas32_opformain_citycar4
+   Object.absolutePosition -520.558/21.948/841.110
+   Object.rotation -154.862/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar5]
+   Object.create cpname_bamyan_aas32_opformain_citycar5
+   Object.absolutePosition -733.978/20.519/933.733
+   Object.rotation -130.242/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar6]
+   Object.create cpname_bamyan_aas32_opformain_citycar6
+   Object.absolutePosition -678.661/24.166/466.008
+   Object.rotation 84.252/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar7]
+   Object.create cpname_bamyan_aas32_opformain_citycar7
+   Object.absolutePosition -700.720/21.856/725.124
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar8]
+   Object.create cpname_bamyan_aas32_opformain_citycar8
+   Object.absolutePosition 405.741/58.910/-144.866
+   Object.rotation -70.441/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar9]
+   Object.create cpname_bamyan_aas32_opformain_citycar9
+   Object.absolutePosition -803.257/21.856/704.984
+   Object.rotation 93.785/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar10]
+   Object.create cpname_bamyan_aas32_opformain_citycar10
+   Object.absolutePosition -688.416/42.026/-247.000
+   Object.rotation -124.724/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar11]
+   Object.create cpname_bamyan_aas32_opformain_citycar11
+   Object.absolutePosition 871.658/74.291/-250.136
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_opformain_citycar12]
+   Object.create cpname_bamyan_aas32_opformain_citycar12
+   Object.absolutePosition -790.145/44.061/-375.342
+   Object.rotation -16.793/0.000/0.000
+   Object.setControlPointId 310
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_logi3]
+   Object.create cpname_bamyan_aas32_usmain_logi3
+   Object.absolutePosition -1176.485/93.981/-2003.649
+   Object.rotation 14.698/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_artillery1]
+   Object.create cpname_bamyan_aas32_usmain_artillery1
+   Object.absolutePosition -1230.174/97.363/-3000.168
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_artillery2]
+   Object.create cpname_bamyan_aas32_usmain_artillery2
+   Object.absolutePosition -1236.733/96.542/-3000.453
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+   rem [ObjectSpawner: cpname_bamyan_aas32_usmain_artillery3]
+   Object.create cpname_bamyan_aas32_usmain_artillery3
+   Object.absolutePosition -1233.534/96.219/-3008.662
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 301
+   Object.layer 4
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: cpname_bamyan_aas32_usmain_1_0]
+ObjectTemplate.create SpawnPoint cpname_bamyan_aas32_usmain_1_0
+ObjectTemplate.activeSafe SpawnPoint cpname_bamyan_aas32_usmain_1_0
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_bamyan_aas32_usmain_1_0]
+Object.create cpname_bamyan_aas32_usmain_1_0
+Object.absolutePosition -1207.865/93.981/-1999.086
+Object.rotation -77.274/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: cpname_bamyan_aas32_usmain_2_0]
+ObjectTemplate.create SpawnPoint cpname_bamyan_aas32_usmain_2_0
+ObjectTemplate.activeSafe SpawnPoint cpname_bamyan_aas32_usmain_2_0
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_bamyan_aas32_usmain_2_0]
+Object.create cpname_bamyan_aas32_usmain_2_0
+Object.absolutePosition -1208.548/93.981/-2016.996
+Object.rotation -86.379/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: cpname_bamyan_aas32_opformain_1_0]
+ObjectTemplate.create SpawnPoint cpname_bamyan_aas32_opformain_1_0
+ObjectTemplate.activeSafe SpawnPoint cpname_bamyan_aas32_opformain_1_0
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_bamyan_aas32_opformain_1_0]
+Object.create cpname_bamyan_aas32_opformain_1_0
+Object.absolutePosition -1904.734/1.024/1914.375
+Object.rotation 89.952/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: cpname_bamyan_aas32_opformain_2_0]
+ObjectTemplate.create SpawnPoint cpname_bamyan_aas32_opformain_2_0
+ObjectTemplate.activeSafe SpawnPoint cpname_bamyan_aas32_opformain_2_0
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_bamyan_aas32_opformain_2_0]
+Object.create cpname_bamyan_aas32_opformain_2_0
+Object.absolutePosition -1871.244/1.024/1937.060
+Object.rotation -173.301/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: cpname_bamyan_aas32_opformain_3_0]
+ObjectTemplate.create SpawnPoint cpname_bamyan_aas32_opformain_3_0
+ObjectTemplate.activeSafe SpawnPoint cpname_bamyan_aas32_opformain_3_0
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 310
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_bamyan_aas32_opformain_3_0]
+Object.create cpname_bamyan_aas32_opformain_3_0
+Object.absolutePosition -1898.508/1.024/1945.381
+Object.rotation -174.618/0.000/0.000
+Object.layer 4
+
+rem [SpawnPointTemplate: cpname_bamyan_aas32_usmain_3_0]
+ObjectTemplate.create SpawnPoint cpname_bamyan_aas32_usmain_3_0
+ObjectTemplate.activeSafe SpawnPoint cpname_bamyan_aas32_usmain_3_0
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 301
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_bamyan_aas32_usmain_3_0]
+Object.create cpname_bamyan_aas32_usmain_3_0
+Object.absolutePosition -1196.768/93.981/-1997.150
+Object.rotation 89.579/0.000/0.000
+Object.layer 4
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: cpname_bamyan_aas32_usmain]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_usmain
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_usmain
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_usmain
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 301
+ObjectTemplate.unableToChangeTeam 1
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_southairfield]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_southairfield
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_southairfield
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_southairfield
+ObjectTemplate.radius 120
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 302
+ObjectTemplate.areaValueTeam1 50
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 40
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint7]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint7
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint7
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint7
+ObjectTemplate.radius 33
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 303
+ObjectTemplate.areaValueTeam1 100
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 32
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint6]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint6
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint6
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint6
+ObjectTemplate.radius 28
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 304
+ObjectTemplate.areaValueTeam1 100
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 32
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint3]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint3
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint3
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.onlytakeablebyteam 1
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint3
+ObjectTemplate.radius 18
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 305
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 150
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 22
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint2]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint2
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint2
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.onlytakeablebyteam 1
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint2
+ObjectTemplate.radius 30
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 306
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 150
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 22
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint1]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint1
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint1
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.onlytakeablebyteam 1
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint1
+ObjectTemplate.radius 25
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 307
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 150
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 22
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint4]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint4
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint4
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.onlytakeablebyteam 1
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint4
+ObjectTemplate.radius 20
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 308
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 150
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 22
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint5]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint5
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint5
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.onlytakeablebyteam 1
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint5
+ObjectTemplate.radius 40
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 309
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 150
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 22
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_opformain]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_opformain
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_opformain
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_opformain
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 310
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.supplyGroupId 1
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint8]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint8
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint8
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint8
+ObjectTemplate.radius 30
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 311
+ObjectTemplate.areaValueTeam1 100
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 32
+
+rem [ControlPointTemplate: cpname_bamyan_aas32_checkpoint9]
+ObjectTemplate.create ControlPoint cpname_bamyan_aas32_checkpoint9
+ObjectTemplate.activeSafe ControlPoint cpname_bamyan_aas32_checkpoint9
+ObjectTemplate.modifiedByUser "Ason"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.onlytakeablebyteam 1
+ObjectTemplate.setControlPointName cpname_bamyan_aas32_checkpoint9
+ObjectTemplate.radius 30
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 312
+ObjectTemplate.areaValueTeam2 50
+ObjectTemplate.timeToGetControl 150
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 22
+
+if v_arg1 == host
+
+   rem [ControlPoint: cpname_bamyan_aas32_usmain]
+   Object.create cpname_bamyan_aas32_usmain
+   Object.absolutePosition -1227.628/92.981/-1989.074
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_southairfield]
+   Object.create cpname_bamyan_aas32_southairfield
+   Object.absolutePosition 172.105/81.103/-1753.017
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint7]
+   Object.create cpname_bamyan_aas32_checkpoint7
+   Object.absolutePosition 287.187/75.283/-693.876
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint6]
+   Object.create cpname_bamyan_aas32_checkpoint6
+   Object.absolutePosition -997.387/44.299/-501.050
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint3]
+   Object.create cpname_bamyan_aas32_checkpoint3
+   Object.absolutePosition -620.142/31.833/211.208
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint2]
+   Object.create cpname_bamyan_aas32_checkpoint2
+   Object.absolutePosition -1298.588/35.166/607.890
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint1]
+   Object.create cpname_bamyan_aas32_checkpoint1
+   Object.absolutePosition -572.712/16.389/1050.024
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint4]
+   Object.create cpname_bamyan_aas32_checkpoint4
+   Object.absolutePosition 302.422/54.777/-34.637
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint5]
+   Object.create cpname_bamyan_aas32_checkpoint5
+   Object.absolutePosition 1242.748/46.893/1127.763
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_opformain]
+   Object.create cpname_bamyan_aas32_opformain
+   Object.absolutePosition -1879.227/0.024/1965.547
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint8]
+   Object.create cpname_bamyan_aas32_checkpoint8
+   Object.absolutePosition 1364.227/103.360/-1462.386
+   Object.layer 4
+
+   rem [ControlPoint: cpname_bamyan_aas32_checkpoint9]
+   Object.create cpname_bamyan_aas32_checkpoint9
+   Object.absolutePosition 513.766/48.964/846.262
+   Object.layer 4
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 30.000000
+CombatAreaManager.addVehicleTimer VCAir 1
+CombatAreaManager.addVehicleDamage VCAir 0
+CombatArea.create CombatArea_0_AAS32
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 2048.000000/-2048.000000
+CombatArea.addAreaPoint 2048.000000/2048.000000
+CombatArea.addAreaPoint -2048.000000/2048.000000
+CombatArea.addAreaPoint -2048.000000/-2048.000000
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 4
+
+CombatArea.create CombatArea_8_aas_32
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -2046.743774/-2047.526978
+CombatArea.addAreaPoint -2048.630371/-1916.635254
+CombatArea.addAreaPoint -1831.583252/-1813.217529
+CombatArea.addAreaPoint -1443.098877/-1583.773926
+CombatArea.addAreaPoint -1103.635742/-1332.816528
+CombatArea.addAreaPoint -965.939209/-1589.786133
+CombatArea.addAreaPoint -607.427734/-2046.277344
+CombatArea.team 1
+CombatArea.vehicles 4
+CombatArea.layer 4
+CombatArea.Inverted 1
+
+CombatArea.create CombatArea_11_aas_32
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -2047.375488/2047.329834
+CombatArea.addAreaPoint -1279.542725/2047.559326
+CombatArea.addAreaPoint -1269.797852/1754.953369
+CombatArea.addAreaPoint -1710.020508/1540.485596
+CombatArea.addAreaPoint -2045.995850/1418.165771
+CombatArea.team 2
+CombatArea.vehicles 4
+CombatArea.layer 4
+CombatArea.Inverted 1
+
