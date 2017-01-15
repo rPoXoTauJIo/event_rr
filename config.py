@@ -152,7 +152,8 @@ MAP_OBJECTIVES = {
         }
     }
 
-MAP_SPAWNPOINTS = {
+'''
+MAP_SPAWNPOINTS = { # not working, spawns aren't networkable
     'bamyan' : {
         'gpm_cq' : {
             32 :[
@@ -201,6 +202,7 @@ MAP_SPAWNPOINTS = {
             }
         }
     }
+'''
 
 MAP_SPAWNERS = {
     'ramiel' : {
@@ -1106,6 +1108,25 @@ MAP_SPAWNERS = {
     'bamyan' : {
         'gpm_cq' : {
             32 :[
+                # USMC spawns
+                {
+                    'name' : 'USA_OS_main_fixed_spawn_0',
+                    'template' : 'rallypoint_us_placeable_noexpire',
+                    'delete' : False,
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1269.223, 47.404, 1118.870),
+                    'rotation' : (4.886, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'USA_OS_main_FOB',
+                    'template' : 'deployable_firebase',
+                    'delete' : False,
+                    'team' : 2,
+                    'delay' : 60,
+                    'position' : (1243.722, 47.196, 1144.192),
+                    'rotation' : (0.000, 0.000, 0.000)
+                    },
                 # USMC spawners
                 {
                     'name' : 'USA_OS_main_VehicleSpwn_1',
@@ -1196,15 +1217,6 @@ MAP_SPAWNERS = {
                     'delay' : 300,
                     'position' : (1216.540, 47.893, 1099.515),
                     'rotation' : (37.470, 0.000, 0.000)
-                    },
-                {
-                    'name' : 'USA_OS_main_FOB',
-                    'template' : 'fixed_firebase',
-                    'delete' : False,
-                    'team' : 2,
-                    'delay' : 60,
-                    'position' : (1243.722, 47.196, 1144.192),
-                    'rotation' : (0.000, 0.000, 0.000)
                     },
                 {
                     'name' : 'USA_OS_main_LogiTruckUSA',
