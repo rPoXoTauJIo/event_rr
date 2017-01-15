@@ -1130,27 +1130,27 @@ MAP_SPAWNERS = {
                 # Taliban spawns
                 {
                     'name' : 'Taliban_SP_1_1',
-                    'template' : 'rallypoint_tal_placeable_noexpire',
+                    'template' : 'rallypoint_taliban_placeable_noexpire',
                     'delete' : False,
-                    'team' : 2,
+                    'team' : 1,
                     'delay' : 300,
                     'position' : (598.250, 34.443, 1313.153),
                     'rotation' : (-171.829, 0.000, 0.000)
                     },
                 {
                     'name' : 'Taliban_SP_2_1',
-                    'template' : 'rallypoint_tal_placeable_noexpire',
+                    'template' : 'rallypoint_taliban_placeable_noexpire',
                     'delete' : False,
-                    'team' : 2,
+                    'team' : 1,
                     'delay' : 300,
                     'position' : (1623.301, 36.348, 1813.809),
                     'rotation' : (109.847, 0.000, 0.000)
                     },
                 {
                     'name' : 'Taliban_SP_3_1',
-                    'template' : 'rallypoint_tal_placeable_noexpire',
+                    'template' : 'rallypoint_taliban_placeable_noexpire',
                     'delete' : False,
-                    'team' : 2,
+                    'team' : 1,
                     'delay' : 300,
                     'position' : (1820.718, 82.185, 483.500),
                     'rotation' : (144.024, 0.000, 0.000)
@@ -2034,6 +2034,23 @@ MAP_DODS = {
                         (1174.063232, 1113.879150),
                         (1172.645752, 1109.778809),
                         (1172.853760, 1106.407959)
+                        ]
+                    },
+                'CombatArea_11_aas_32' : {
+                    'name' : 'CombatArea_11_aas_32',
+                    'create' : False,
+                    'delete' : False,
+                    'modify' : True,
+                    'team' : 1, # we're changing to team 1 so USMC can't move anywhere
+                    'vehicles' : 4,
+                    'layer' : 4,
+                    'inverted' : 1,
+                    'areapoints' : [
+                        (-2047.375488, 2047.329834),
+                        (-1279.542725, 2047.559326),
+                        (-1269.797852, 1754.953369),
+                        (-1710.020508, 1540.485596),
+                        (-2045.995850, 1418.165771),
                         ]
                     },
                 }
