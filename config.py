@@ -1127,6 +1127,34 @@ MAP_SPAWNERS = {
                     'position' : (1243.722, 47.196, 1144.192),
                     'rotation' : (0.000, 0.000, 0.000)
                     },
+                # Taliban spawns
+                {
+                    'name' : 'Taliban_SP_1_1',
+                    'template' : 'rallypoint_tal_placeable_noexpire',
+                    'delete' : False,
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (598.250, 34.443, 1313.153),
+                    'rotation' : (-171.829, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'Taliban_SP_2_1',
+                    'template' : 'rallypoint_tal_placeable_noexpire',
+                    'delete' : False,
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1623.301, 36.348, 1813.809),
+                    'rotation' : (109.847, 0.000, 0.000)
+                    },
+                {
+                    'name' : 'Taliban_SP_3_1',
+                    'template' : 'rallypoint_tal_placeable_noexpire',
+                    'delete' : False,
+                    'team' : 2,
+                    'delay' : 300,
+                    'position' : (1820.718, 82.185, 483.500),
+                    'rotation' : (144.024, 0.000, 0.000)
+                    },
                 # USMC spawners
                 {
                     'name' : 'USA_OS_main_VehicleSpwn_1',
@@ -1955,7 +1983,7 @@ MAP_DODS = {
                     'create' : False,
                     'delete' : False,
                     'modify' : True,
-                    'team' : 1, # we're changing to team 1
+                    'team' : 1, # we're changing to team 1 so USMC can't move anywhere
                     'vehicles' : 4,
                     'layer' : 4,
                     'inverted' : 0,
