@@ -30,8 +30,8 @@ def recalculate_point(point_y, point_x, map_size):
     return point_y, point_x
 
 def main():
-    original_minimap = 'ingamemap_bamyan.dds'
-    map_size = 4096
+    original_minimap = 'ingamemap_ramiel.dds'
+    map_size = 2048
 
     img = Image.open(original_minimap)
     img = img.transpose(Image.FLIP_TOP_BOTTOM)

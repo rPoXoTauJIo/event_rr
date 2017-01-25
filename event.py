@@ -10,6 +10,7 @@ import game.realitytimer as realitytimer
 import advdebug as D
 import config as C
 
+G_WAVE = 0
 
 # ------------------------------------------------------------------------
 # Init
@@ -41,6 +42,7 @@ def onGameStatusChanged(status):
         #host.registerHandler('ChatMessage', onChatMessage, 1)
         D.debugMessage('Event init stage 1')
         init_event_stage_1(map_name, map_gamemode, map_layer)
+        host.registerHandler( 'VehicleDestroyed', onObjectiveDestroyed )
         D.debugMessage('Event init finished')
 
 def init_event_stage_0(map_name, map_gamemode, map_layer):
@@ -50,42 +52,61 @@ def init_event_stage_0(map_name, map_gamemode, map_layer):
                 if map_gamemode in C.MAP_SPAWNERS[map_name]:
                     if map_layer in C.MAP_SPAWNERS[map_name][map_gamemode]:
                         deleteSpawners(map_name, map_gamemode, map_layer)
+            if map_name in C.MAP_FLAGS:
+                if map_gamemode in C.MAP_FLAGS[map_name]:
+                    if map_layer in C.MAP_FLAGS[map_name][map_gamemode]:
+                        setupFlags(map_name, map_gamemode, map_layer)
+            if map_name in C.MAP_DODS:
+                if map_gamemode in C.MAP_DODS[map_name]:
+                    if map_layer in C.MAP_DODS[map_name][map_gamemode]:
+                        setupDoD(map_name, map_gamemode, map_layer)
+            if map_name in C.MAP_OBJECTIVES:
+                if map_gamemode in C.MAP_OBJECTIVES[map_name]:
+                    if map_layer in C.MAP_OBJECTIVES[map_name][map_gamemode]:
+                        setupObjectives(map_name, map_gamemode, map_layer)
+            if map_name in C.MAP_HIDEOUTS:
+                if map_gamemode in C.MAP_HIDEOUTS[map_name]:
+                    if map_layer in C.MAP_HIDEOUTS[map_name][map_gamemode]:
+                        setupHideouts(map_name, map_gamemode, map_layer)
         except:
             D.errorMessage()
-        '''
-        if map_name in C.MAP_SPAWNPOINTS:
-            if map_gamemode in C.MAP_SPAWNPOINTS[map_name]:
-                if map_layer in C.MAP_SPAWNPOINTS[map_name][map_gamemode]:
-                    setupSpawnpoints(map_name, map_gamemode, map_layer)
-        '''
 
 def init_event_stage_1(map_name, map_gamemode, map_layer):
     if (map_name, map_gamemode, map_layer) in C.MAP_EVENT:
         #D.debugMessage(getObjectSpawners())
         try:
-            if map_name in C.MAP_FLAGS:
-                if map_gamemode in C.MAP_FLAGS[map_name]:
-                    if map_layer in C.MAP_FLAGS[map_name][map_gamemode]:
-                        setupFlags(map_name, map_gamemode, map_layer)
-            if map_name in C.MAP_HIDEOUTS:
-                if map_gamemode in C.MAP_HIDEOUTS[map_name]:
-                    if map_layer in C.MAP_HIDEOUTS[map_name][map_gamemode]:
-                        pass
-                        #setupHideouts(map_name, map_gamemode, map_layer)
-            '''
-            if map_name in C.MAP_SPAWNPOINTS:
-                if map_gamemode in C.MAP_SPAWNPOINTS[map_name]:
-                    if map_layer in C.MAP_SPAWNPOINTS[map_name][map_gamemode]:
-                        setupSpawnpoints(map_name, map_gamemode, map_layer)
-            '''
+            
             if map_name in C.MAP_SPAWNERS:
                 if map_gamemode in C.MAP_SPAWNERS[map_name]:
                     if map_layer in C.MAP_SPAWNERS[map_name][map_gamemode]:
                         setupSpawners(map_name, map_gamemode, map_layer)
-            if map_name in C.MAP_DODS:
-                if map_gamemode in C.MAP_DODS[map_name]:
-                    if map_layer in C.MAP_DODS[map_name][map_gamemode]:
-                        setupDoD(map_name, map_gamemode, map_layer)
+            
+        except:
+            D.errorMessage()
+
+def onObjectiveDestroyed(obj, attacker):
+
+    if obj.templateName.lower( ) != 'ammocache':
+        return
+    
+    init_event_stage_wave()
+
+def init_event_stage_wave():
+    global G_WAVE
+
+    G_WAVE = int(G_WAVE + 1) # cause hularious fucks were given in past
+    
+    map_name = bf2.gameLogic.getMapName()
+    map_gamemode = bf2.serverSettings.getGameMode()
+    map_layer = realitycore.g_mapLayer
+
+    if (map_name, map_gamemode, map_layer) in C.MAP_EVENT:
+        try:
+            if map_name in C.MAP_SPAWNERS_WAVE:
+                if map_gamemode in C.MAP_SPAWNERS_WAVE[map_name]:
+                    if map_layer in C.MAP_SPAWNERS_WAVE[map_name][map_gamemode]:
+                        if G_WAVE in C.MAP_SPAWNERS_WAVE[map_name][map_gamemode][map_layer]:
+                            setupSpawnersWave(map_name, map_gamemode, map_layer, G_WAVE)
         except:
             D.errorMessage()
 
@@ -104,16 +125,15 @@ def getObjectSpawners():
         spawnerTemplates.append(str(spawner.templateName))
     return spawnerTemplates
 
-# this doesn't work
-def setupSpawnpoints(map_name, map_gamemode, map_layer):
-    spawnpoints = bf2.objectManager.getObjectsOfType('dice.hfe.world.ObjectTemplate.Spawnpoint')
-    for spawnpoint in spawnpoints:
-        spawn_name = spawnpoint.templateName
-        object = host.rcon_invoke("""
-            objecttemplate.active %s
-            objecttemplate.objecttemplate
-            """ % spawn_name)
-        D.debugMessage('setupSpawnpoints(): %s: %s' % (str(spawn_name), str(object)))
+def setupSpawnersWave(map_name, map_gamemode, map_layer, wave):
+    D.debugMessage('Spawning wave: %s' % (G_WAVE))
+    for spawner_set in C.MAP_SPAWNERS_WAVE[map_name][map_gamemode][map_layer][wave]:
+        D.debugMessage('Spawning "%s" %s at %s' % (
+            spawner_set['name'],
+            spawner_set['template'],
+            getbf2str(spawner_set['position']))
+            )
+        spawnAsset(spawner_set)
 
 def setupFlags(map_name, map_gamemode, map_layer):
     for cp in realitycore.cleanListOfObjects(bf2.objectManager.getObjectsOfType(\
@@ -211,17 +231,22 @@ Object.delete 1
 
 def setupHideouts(map_name, map_gamemode, map_layer):
     for spawner_set in C.MAP_HIDEOUTS[map_name][map_gamemode][map_layer]:
-        if spawner_set['name'] not in spawnerTemplates:
-            D.debugMessage('Spawning "%s" %s at %s' % (
-                spawner_set['name'],
-                spawner_set['template'],
-                getbf2str(spawner_set['position']))
-                )
-            spawnAsset(spawner_set)
+        D.debugMessage('Spawning "%s" %s at %s' % (
+            spawner_set['name'],
+            spawner_set['template'],
+            getbf2str(spawner_set['position']))
+            )
+        spawnAsset(spawner_set)
 
 
 def setupObjectives(map_name, map_gamemode, map_layer):
-    pass
+    for spawner_set in C.MAP_OBJECTIVES[map_name][map_gamemode][map_layer]:
+        D.debugMessage('Spawning "%s" %s at %s' % (
+            spawner_set['name'],
+            spawner_set['template'],
+            getbf2str(spawner_set['position']))
+            )
+        spawnAsset(spawner_set)
 
 def setupDoD(map_name, map_gamemode, map_layer):
     for dod_set in C.MAP_DODS[map_name][map_gamemode][map_layer]:
