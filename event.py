@@ -5,6 +5,9 @@ import host
 #importing PR packages
 import game.realitycore as realitycore
 import game.realitytimer as realitytimer
+import game.realityserver as realityserver
+import game.realityconstants as realityconstants
+import game.realitykits as realitykits
 
 # importing custom modules
 import advdebug as D
@@ -42,6 +45,7 @@ def onGameStatusChanged(status):
         #host.registerHandler('ChatMessage', onChatMessage, 1)
         D.debugMessage('Event init stage 1')
         init_event_stage_1(map_name, map_gamemode, map_layer)
+        init_event_setup_special_conditions()
         host.registerHandler( 'VehicleDestroyed', onObjectiveDestroyed )
         D.debugMessage('Event init finished')
 
@@ -83,6 +87,158 @@ def init_event_stage_1(map_name, map_gamemode, map_layer):
             
         except:
             D.errorMessage()
+
+# PURE SHIT
+def init_event_setup_special_conditions():
+    global realityserver
+    global realitykits
+    
+    tickets = {
+        realityconstants.VEHICLE_TYPE_ARMOR:      -10,
+        realityconstants.VEHICLE_TYPE_IFV:        -10,
+        realityconstants.VEHICLE_TYPE_JET:        -10,
+        realityconstants.VEHICLE_TYPE_HELIATTACK: -10,
+        realityconstants.VEHICLE_TYPE_TURBOPROP:  -7,
+        realityconstants.VEHICLE_TYPE_SHIP:       -50,
+        realityconstants.VEHICLE_TYPE_HELI:       -5,
+        realityconstants.VEHICLE_TYPE_RECON:      -5,
+        realityconstants.VEHICLE_TYPE_AAV:        -5,
+        realityconstants.VEHICLE_TYPE_APC:        -35, # modified for fr_apc_vbci
+        realityconstants.VEHICLE_TYPE_TRANSPORT:  -2,
+        realityconstants.VEHICLE_TYPE_SOLDIER:    -1
+    }
+    # realityserver.C( 'SUPPLIES_TEMPLATES_TEAMLOCKED' )
+    realityserver.C( 'TICKETS', tickets)
+    
+    kitlimits = {}
+    
+    kitlimits['KIT_LIMIT_8'] = { 'sniper':     0, 'aa': 0, 'at': 0, 'engineer': 0, 'marksman': 1, 'assault': 1, 'riflemanat': 1,
+                     'riflemanap': 1, 'mg': 1, 'spotter': 0, 'civilian': 1, 'specialist': 0 }
+    kitlimits['KIT_LIMIT_16'] = { 'sniper':     1, 'aa': 1, 'at': 0, 'engineer': 1, 'marksman': 2, 'assault': 2, 'riflemanat': 2,
+                          'riflemanap': 2, 'mg': 2, 'spotter': 0, 'civilian': 3, 'specialist': 0 }
+    kitlimits['KIT_LIMIT_24'] = { 'sniper':     1, 'aa': 1, 'at': 0, 'engineer': 1, 'marksman': 3, 'assault': 3, 'riflemanat': 4,
+                          'riflemanap': 3, 'mg': 3, 'spotter': 0, 'civilian': 9, 'specialist': 0 }
+    kitlimits['KIT_LIMIT_32'] = { 'sniper':     2, 'aa': 2, 'at': 0, 'engineer': 2, 'marksman': 3, 'assault': 3, 'riflemanat': 5,
+                          'riflemanap': 3, 'mg': 3, 'spotter': 0, 'civilian': 12, 'specialist': 0 }
+    kitlimits['KIT_LIMIT_44'] = { 'sniper':     2, 'aa': 2, 'at': 0, 'engineer': 2, 'marksman': 4, 'assault': 4, 'riflemanat': 8,
+                          'riflemanap': 4, 'mg': 4, 'spotter': 0, 'civilian': 16, 'specialist': 0 }
+    
+    kits_factions = {
+        'ch':          {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'gb':          {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'ger':         {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'mec':         {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'us':          {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'usa':         { # limited assault ############################################
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 9, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'arf':         {
+            'marksman': 1, 'support': 2, 'riflemanat': 4, 'assault': 1, 'riflemanap': 1, 'specialist': 1, 'mg': 2,
+            'spotter':  1,
+            'officer':  2, 'sniper': 1, 'engineer': 2, 'medic': 1, 'rifleman': 0
+        },
+        'cf':          {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'ru':          {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'idf':         {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'chinsurgent': {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'rifleman': 0
+        },
+        'hamas':       {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'rifleman': 0
+        },
+        'taliban':     {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'rifleman': 0
+        },
+        'meinsurgent': {
+            'officer': 2, 'insurgent1': 0, 'insurgent2': 0, 'insurgent3': 0, 'insurgent4': 0, 'civilian': 0, 'sapper': 0,
+            'medic':   2
+        },
+        'vnusa':       {
+            'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6, 'spotter': 3,
+            'officer': 2, 'sniper': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'vnusmc':      {
+            'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6, 'spotter': 3,
+            'officer': 2, 'sniper': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'vnnva':       {
+            'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6, 'spotter': 3,
+            'officer': 2, 'sniper': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'gb82':        {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'arg82':       {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'fr':          {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+        'fsa':         {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'rifleman': 0
+        },
+        'nl':          {
+            'marksman': 6, 'support': 4, 'riflemanat': 4, 'assault': 6, 'riflemanap': 4, 'specialist': 4, 'mg': 6,
+            'spotter':  3,
+            'officer':  2, 'sniper': 3, 'aa': 3, 'at': 3, 'engineer': 3, 'medic': 2, 'tanker': 1, 'pilot': 1, 'rifleman': 0
+        },
+    }
+    
+    for limit, limits in kitlimits.items():
+        realityserver.C( limit, limits)
+    
+    realityserver.C( 'KIT_LIMITS', kits_factions )
+    
+    realitykits.setupKitLimits()
+            
 
 def onObjectiveDestroyed(obj, attacker):
 
