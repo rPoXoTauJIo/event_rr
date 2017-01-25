@@ -1375,7 +1375,7 @@ MAP_SPAWNERS = {
                     },
                 {
                     'name' : 'Taliban_CP3_Vehicle_DSHKm',
-                    'template' : 'civ_jep_zastava900ak',
+                    'template' : 'civ_jep_technical_black',
                     'delete' : False,
                     'team' : 1,
                     'delay' : 300,
