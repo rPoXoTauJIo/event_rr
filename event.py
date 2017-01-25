@@ -28,21 +28,22 @@ def deinit():
 # onGameStatusChanged
 # ------------------------------------------------------------------------
 def onGameStatusChanged(status):
+    map_name = bf2.gameLogic.getMapName()
+    map_gamemode = bf2.serverSettings.getGameMode()
+    map_layer = realitycore.g_mapLayer
+
     if status == bf2.GameStatus.Loaded:
         # time critical tasks and should be done asap
         D.debugMessage('Event init stage0')
-        init_event_stage_0()
+        init_event_stage_0(map_name, map_gamemode, map_layer)
     if status == bf2.GameStatus.Playing: # game is now in playing state
         # registering chatMessage handler
         #host.registerHandler('ChatMessage', onChatMessage, 1)
         D.debugMessage('Event init stage 1')
-        init_event_stage_1()
+        init_event_stage_1(map_name, map_gamemode, map_layer)
         D.debugMessage('Event init finished')
 
-def init_event_stage_0():
-    map_name = bf2.gameLogic.getMapName()
-    map_gamemode = bf2.serverSettings.getGameMode()
-    map_layer = realitycore.g_mapLayer
+def init_event_stage_0(map_name, map_gamemode, map_layer):
     if (map_name, map_gamemode, map_layer) in C.MAP_EVENT:
         try:
             if map_name in C.MAP_SPAWNERS:
@@ -57,12 +58,8 @@ def init_event_stage_0():
                 if map_layer in C.MAP_SPAWNPOINTS[map_name][map_gamemode]:
                     setupSpawnpoints(map_name, map_gamemode, map_layer)
         '''
-    
 
-def init_event_stage_1():
-    map_name = bf2.gameLogic.getMapName()
-    map_gamemode = bf2.serverSettings.getGameMode()
-    map_layer = realitycore.g_mapLayer
+def init_event_stage_1(map_name, map_gamemode, map_layer):
     if (map_name, map_gamemode, map_layer) in C.MAP_EVENT:
         #D.debugMessage(getObjectSpawners())
         try:
