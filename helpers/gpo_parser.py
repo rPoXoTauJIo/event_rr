@@ -114,33 +114,33 @@ for object in objects:
         # PART FOR RAMIEL INS GPO
         skip = True
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_vcp_rpg_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_riflemanat_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_riflemanat_alt'
             skip = False
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_vcp_svd_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_marksman_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_marksman'
             skip = False
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_vcp_pkm_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_support_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_mg'
             skip = False
 
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_fob_rpg_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_riflemanat_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_riflemanat_alt'
             skip = False
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_fob_svd_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_marksman_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_marksman'
             skip = False
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_fob_pkm_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_support_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_mg'
             skip = False
             
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_prison_rpg_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_riflemanat_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_riflemanat_alt'
             skip = False
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_prison_svd_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_marksman_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_marksman'
             skip = False
         if objects[object].name.startswith('cpname_ramiel_aas128_insmain_prison_pkm_') and skip:
-            objects[object].template[objects[object].team-1] = 'meinsurgent_support_pickup'
+            objects[object].template[objects[object].team-1] = 'arf_mg'
             skip = False
         
         if skip:
