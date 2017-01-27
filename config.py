@@ -214,6 +214,25 @@ MAP_SPAWNERS = {
                     'position': (-639.591, 24.922, -670.966),
                     'rotation': (0.000, 0.000, 0.000)
                 },
+                # US grenadiers
+                {
+                    'name': 'cpname_ramiel_aas128_usmain_assault_0',
+                    'delete': False,
+                    'template': 'usa_assault_alt',
+                    'team': 2,
+                    'delay': 300,
+                    'position': (-637.654, 24.922, -666.264),
+                    'rotation': (0.000, 0.000, 0.000)
+                },
+                {
+                    'name': 'cpname_ramiel_aas128_usmain_assault_1',
+                    'delete': False,
+                    'template': 'usa_assault_alt',
+                    'team': 2,
+                    'delay': 300,
+                    'position': (-637.664, 24.962, -668.867),
+                    'rotation': (0.000, 0.000, 0.000)
+                },
                 # US default spawns
                 {
                     'name': 'cpname_ramiel_aas128_usmain_hmmwv_0',
@@ -414,6 +433,403 @@ MAP_SPAWNERS = {
                     'position': (100, 26, 473.567),
                     'rotation': (0.000, 0.000, 0.000)
                 },
+                # ARF weapons
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_rpg_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-33.942, 25.6, -238.0),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_pkm_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (45.475, 25.135, 53.647),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_rpg_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-34.311, 25.6, -238.0),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_pkm_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (48.052, 27.846, 343.809),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_rpg_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (48.269, 27.844, 338.594),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_svd_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-41.574, 25.6, -236.773),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_rpg_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (52.531, 25.135, 53.814),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_rpg_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (54.81, 27.872, 337.038),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_pkm_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-41.738, 25.6, -239.218),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_svd_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-41.205, 25.6, -236.773),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_pkm_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (45.751, 25.135, 53.647),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_svd_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (36.924, 25.135, 53.842),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_svd_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-42.629, 25.6, -236.635),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_pkm_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (54.703, 27.838, 347.644),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_svd_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (37.293, 25.135, 53.606),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_pkm_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-42.752, 25.6, -238.982),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_svd_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (37.569, 25.135, 53.606),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_svd_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-42.219, 25.6, -236.537),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_svd_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (63.0383, 27.935200000000002, 330.497),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_pkm_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (44.696, 25.135, 53.785),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_rpg_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (53.31, 25.135, 53.676),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_pkm_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-43.162, 25.6, -239.08),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_rpg_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (54.703, 27.838, 340.659),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_svd_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (63.1453, 27.9692, 326.87600000000003),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_svd_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (56.387299999999996, 27.9432, 326.66200000000003),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_pkm_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (47.906, 27.841, 347.411),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_rpg_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-34.956, 25.6, -237.764),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_pkm_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-42.107, 25.6, -239.218),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_svd_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (36.514, 25.135, 53.744),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_rpg_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-35.366, 25.6, -237.862),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_rpg_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (53.586, 25.135, 53.676),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_rpg_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (48.052, 27.846, 336.824),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_svd_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (56.604299999999995, 27.941200000000002, 328.432),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_rpg_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (47.906, 27.841, 340.426),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_pkm_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-42.383, 25.6, -239.218),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_pkm_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (54.81, 27.872, 344.023),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_pkm_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (46.12, 25.135, 53.647),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_rpg_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (52.941, 25.135, 53.912),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_pkm_3',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (45.106, 25.135, 53.883),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_rpg_2',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-34.587, 25.6, -238.0),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_prison_pkm_1',
+                    'delete' : False,
+                    'template' : 'meinsurgent_support_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (48.269, 27.844, 345.579),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_vcp_svd_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (-41.85, 25.6, -236.773),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_rpg_4',
+                    'delete' : False,
+                    'template' : 'meinsurgent_riflemanat_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (53.955, 25.135, 53.676),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_fob_svd_0',
+                    'delete' : False,
+                    'template' : 'meinsurgent_marksman_pickup',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (37.938, 25.135, 53.606),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
                 # Default spawners, deleting
                 {
                     'name': 'cpname_ramiel_aas128_habr_gidr_hq_acv',

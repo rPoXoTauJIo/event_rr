@@ -10,11 +10,11 @@
                     },
 '''
 
-g_filename_gpo = 'gameplayobjects_bamyan_cq32.con'
+g_filename_gpo = 'gameplayobjects_ramiel_cq128_custom.con'
 # Define what you need as main output
 # Default is 'ObjectSpawner'
 # Options are: ObjectSpawner, SpawnPoint
-g_output_type = 'SpawnPoint'
+g_output_type = 'ObjectSpawner'
 
 class Spawner:
 
@@ -107,7 +107,48 @@ for line in file.splitlines():
         objects[activeSafe.name].cpid = cpid
 
 for object in objects:
+
     if objects[object].type == 'ObjectSpawner':
+    
+    
+        # PART FOR RAMIEL INS GPO
+        skip = True
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_vcp_rpg_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_riflemanat_pickup'
+            skip = False
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_vcp_svd_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_marksman_pickup'
+            skip = False
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_vcp_pkm_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_support_pickup'
+            skip = False
+
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_fob_rpg_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_riflemanat_pickup'
+            skip = False
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_fob_svd_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_marksman_pickup'
+            skip = False
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_fob_pkm_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_support_pickup'
+            skip = False
+            
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_prison_rpg_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_riflemanat_pickup'
+            skip = False
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_prison_svd_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_marksman_pickup'
+            skip = False
+        if objects[object].name.startswith('cpname_ramiel_aas128_insmain_prison_pkm_') and skip:
+            objects[object].template[objects[object].team-1] = 'meinsurgent_support_pickup'
+            skip = False
+        
+        if skip:
+            continue
+
+        objects[object].delete = False
+        objects[object].delay = 300
+        
         # note that it has tabs already
         objects[object].output_str = """
                 {
