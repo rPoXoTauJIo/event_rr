@@ -195,6 +195,25 @@ MAP_SPAWNERS = {
     'ramiel': {
         'gpm_cq': {
             128: [
+                # US default fob and crate
+                {
+                    'name': 'cpname_ramiel_aas128_usmain_fixed_fob_0',
+                    'delete': False,
+                    'template': 'fixed_firebase',
+                    'team': 2,
+                    'delay': 600,
+                    'position': (-652.177, 25.726, -681.075),
+                    'rotation': (0.000, 0.000, 0.000)
+                },
+                {
+                    'name': 'cpname_ramiel_aas128_usmain_hmmwv_0',
+                    'delete': False,
+                    'template': 'fixed_supply_crate_us',
+                    'team': 2,
+                    'delay': 60,
+                    'position': (-639.591, 24.922, -670.966),
+                    'rotation': (0.000, 0.000, 0.000)
+                },
                 # US default spawns
                 {
                     'name': 'cpname_ramiel_aas128_usmain_hmmwv_0',
