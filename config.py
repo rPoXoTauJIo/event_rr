@@ -255,7 +255,7 @@ MAP_SPAWNERS = {
                 {
                     'name': 'cpname_ramiel_aas128_usmain_hmmwv_2',
                     'delete': False,
-                    'template': 'us_jep_hmmwv_mk19',
+                    'template': 'us_jep_hmmwv',
                     'team': 2,
                     'delay': 600,
                     'position': (-643.765, 26.000, -648.608),
