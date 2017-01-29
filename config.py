@@ -427,7 +427,7 @@ MAP_SPAWNERS = {
                 {
                     'name': 'cpname_ramiel_aas128_insmain_jep_techie_0',
                     'delete': False,
-                    'template': 'civ_jep_technical_black',
+                    'template': 'civ_jep_technical',
                     'team': 1,
                     'delay': 300,
                     'position': (98.847, 26.000, 475.585),
@@ -436,7 +436,7 @@ MAP_SPAWNERS = {
                 {
                     'name': 'cpname_ramiel_aas128_insmain_jep_techie_1',
                     'delete': False,
-                    'template': 'civ_jep_technical_black',
+                    'template': 'civ_jep_technical_red',
                     'team': 1,
                     'delay': 300,
                     'position': (98.959, 26.000, 472.628),
@@ -445,7 +445,7 @@ MAP_SPAWNERS = {
                 {
                     'name': 'cpname_ramiel_aas128_insmain_jep_techie_2',
                     'delete': False,
-                    'template': 'civ_jep_technical_black',
+                    'template': 'civ_jep_technical',
                     'team': 1,
                     'delay': 300,
                     'position': (46.829, 26.000, 471.489),
@@ -454,7 +454,7 @@ MAP_SPAWNERS = {
                 {
                     'name': 'cpname_ramiel_aas128_insmain_jep_techie_3',
                     'delete': False,
-                    'template': 'civ_jep_technical_black',
+                    'template': 'civ_jep_technical_red',
                     'team': 1,
                     'delay': 300,
                     'position': (46.823, 26.000, 474.435),
