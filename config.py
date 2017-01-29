@@ -223,7 +223,7 @@ MAP_SPAWNERS = {
                     'rotation': (0.000, 0.000, 0.000)
                 },
                 {
-                    'name': 'cpname_ramiel_aas128_usmain_hmmwv_0',
+                    'name': 'cpname_ramiel_aas128_usmain_crate_0',
                     'delete': False,
                     'template': 'fixed_supply_crate_us',
                     'team': 2,
@@ -257,7 +257,7 @@ MAP_SPAWNERS = {
                     'template': 'us_jep_hmmwv',
                     'team': 2,
                     'delay': 600,
-                    'position': (-640.291, 26.000, -654.993),
+                    'position': (-669.291, 26.000, -655.993),
                     'rotation': (0.000, 0.000, 0.000)
                 },
                 {
@@ -460,7 +460,7 @@ MAP_SPAWNERS = {
                     'position': (46.823, 26.000, 474.435),
                     'rotation': (90.000, 0.000, 0.000)
                 },
-                # ARF weapons
+                # ARF kits weapons
                 {
                     'name' : 'cpname_ramiel_aas128_insmain_vcp_rpg_0',
                     'delete' : False,
