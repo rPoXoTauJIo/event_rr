@@ -42,6 +42,14 @@ MAP_HIDEOUTS = {
                     'rotation': (170.446, 0.000, 0.000)
                 },
                 {
+                    'name': 'cpname_ramiel_aas128_insmain_fob_hideout_0',
+                    'template': 'fixed_insurgent_hideout',
+                    'team': 1,
+                    'delay': 99999,
+                    'position': (16.078, 26.171, 67.502),
+                    'rotation': (0.000, 0.000, 0.000)
+                },
+                {
                     'name': 'cpname_ramiel_aas128_insmain_prison_hideout_0',
                     'template': 'fixed_insurgent_hideout',
                     'team': 1,
@@ -135,6 +143,15 @@ MAP_SPAWNERS_WAVE = {
                         'delay': 300,
                         'position': (-52.829, 25.500, -269.352),
                         'rotation': (0.000, 0.000, 0.000)
+                    },
+                    {
+                        'name': 'cpname_ramiel_aas128_usmain_depot',
+                        'delete': False,
+                        'template': 'vehicle_depot_us',
+                        'team': 2,
+                        'delay': 99999,
+                        'position': (-719.592, 25.0, -585.962),
+                        'rotation': (-90.0, 0.0, 0.0)
                     },
                 ],
                 2: [
@@ -340,6 +357,16 @@ MAP_SPAWNERS = {
                     'team': 2,
                     'delay': 600,
                     'position': (-624.692, 26.000, -633.736),
+                    'rotation': (0.000, 0.000, 0.000)
+                },
+                # ARF supply
+                {
+                    'name': 'cpname_ramiel_aas128_insmain_vehicle_depot',
+                    'delete': False,
+                    'template': 'vehicle_depot_tal',
+                    'team': 1,
+                    'delay': 99999,
+                    'position': (93.024, 25.000, 523.416),
                     'rotation': (0.000, 0.000, 0.000)
                 },
                 # ARF default spawns
