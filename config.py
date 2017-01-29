@@ -407,58 +407,58 @@ MAP_SPAWNERS = {
                     'rotation': (180.000, 0.000, 0.000)
                 },
                 {
-                    'name': 'arf_main_ammocar1',
+                    'name': 'cpname_ramiel_aas128_insmain_jep_support_logistics_0',
                     'delete': False,
-                    'template': 'civ_jep_techincal_support',
+                    'template': 'civ_jep_support_logistics',
                     'team': 1,
                     'delay': 300,
-                    'position': (70.0343, 26, 511.307),
+                    'position': (63.940, 26.000, 511.311),
+                    'rotation': (180.0, 0.0, 0.0)
+                },
+                {
+                    'name': 'cpname_ramiel_aas128_insmain_jep_support_logistics_1',
+                    'delete': False,
+                    'template': 'civ_jep_support_logistics',
+                    'team': 1,
+                    'delay': 300,
+                    'position': (67.509, 26.000, 511.216),
                     'rotation': (180.000, 0.000, 0.000)
                 },
                 {
-                    'name': 'arf_main_ammocar2',
+                    'name': 'cpname_ramiel_aas128_insmain_jep_techie_0',
                     'delete': False,
-                    'template': 'civ_jep_techincal_support',
+                    'template': 'civ_jep_technical_black',
                     'team': 1,
                     'delay': 300,
-                    'position': (75.0343, 26, 511.307),
-                    'rotation': (180.000, 0.000, 0.000)
+                    'position': (98.847, 26.000, 475.585),
+                    'rotation': (-90.000, 0.000, 0.000)
                 },
                 {
-                    'name': 'arf_main_techincal1',
+                    'name': 'cpname_ramiel_aas128_insmain_jep_techie_1',
                     'delete': False,
-                    'template': 'civ_jep_techincal',
+                    'template': 'civ_jep_technical_black',
                     'team': 1,
                     'delay': 300,
-                    'position': (45.0723, 26, 477.975),
-                    'rotation': (0.000, 0.000, 0.000)
+                    'position': (98.959, 26.000, 472.628),
+                    'rotation': (-90.000, 0.000, 0.000)
                 },
                 {
-                    'name': 'arf_main_techincal2',
+                    'name': 'cpname_ramiel_aas128_insmain_jep_techie_2',
                     'delete': False,
-                    'template': 'civ_jep_techincal',
+                    'template': 'civ_jep_technical_black',
                     'team': 1,
                     'delay': 300,
-                    'position': (45.0723, 26, 473.567),
-                    'rotation': (0.000, 0.000, 0.000)
+                    'position': (46.829, 26.000, 471.489),
+                    'rotation': (90.000, 0.000, 0.000)
                 },
                 {
-                    'name': 'arf_main_techincal3',
+                    'name': 'cpname_ramiel_aas128_insmain_jep_techie_3',
                     'delete': False,
-                    'template': 'civ_jep_techincal',
+                    'template': 'civ_jep_technical_black',
                     'team': 1,
                     'delay': 300,
-                    'position': (100, 26, 477.975),
-                    'rotation': (0.000, 0.000, 0.000)
-                },
-                {
-                    'name': 'arf_main_techincal4',
-                    'delete': False,
-                    'template': 'civ_jep_techincal',
-                    'team': 1,
-                    'delay': 300,
-                    'position': (100, 26, 473.567),
-                    'rotation': (0.000, 0.000, 0.000)
+                    'position': (46.823, 26.000, 474.435),
+                    'rotation': (90.000, 0.000, 0.000)
                 },
                 # ARF weapons
                 {
