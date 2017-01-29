@@ -1,0 +1,18 @@
+rem *** tent_v1 ***
+Object.create tent_v1
+Object.absolutePosition 51.448/27.778/338.739
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+Object.source 1
+
+rem *** tent_v1 ***
+Object.create tent_v1
+Object.absolutePosition 51.448/27.778/345.724
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
+
+rem *** tent_v1 ***
+Object.create tent_v1
+Object.absolutePosition 59.7833/27.8752/328.577
+Object.rotation -90.0/0.0/0.0
+Object.layer 1
