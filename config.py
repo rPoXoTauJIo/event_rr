@@ -857,6 +857,141 @@ MAP_SPAWNERS = {
                     'position' : (37.938, 25.135, 53.606),
                     'rotation' : (0.0, 0.0, 0.0)
                     },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_rpg_0',
+                    'delete' : False,
+                    'template' : 'arf_riflemanat_alt',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (48.3, 25.05, 530.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_rpg_1',
+                    'delete' : False,
+                    'template' : 'arf_riflemanat_alt',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (49.3, 25.05, 530.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_rpg_2',
+                    'delete' : False,
+                    'template' : 'arf_riflemanat_alt',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (50.3, 25.05, 530.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_rpg_3',
+                    'delete' : False,
+                    'template' : 'arf_riflemanat_alt',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (51.3, 25.05, 530.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_rpg_4',
+                    'delete' : False,
+                    'template' : 'arf_riflemanat_alt',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (52.3, 25.05, 530.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_svd_0',
+                    'delete' : False,
+                    'template' : 'arf_marksman',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (48.3, 25.05, 534.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_svd_1',
+                    'delete' : False,
+                    'template' : 'arf_marksman',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (49.3, 25.05, 534.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_svd_2',
+                    'delete' : False,
+                    'template' : 'arf_marksman',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (50.3, 25.05, 534.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_svd_3',
+                    'delete' : False,
+                    'template' : 'arf_marksman',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (51.3, 25.05, 534.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_svd_4',
+                    'delete' : False,
+                    'template' : 'arf_marksman',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (52.3, 25.05, 534.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_pkm_0',
+                    'delete' : False,
+                    'template' : 'arf_mg',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (48.3, 25.05, 527.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : ''cpname_ramiel_aas128_insmain_pkm_1,
+                    'delete' : False,
+                    'template' : 'arf_mg',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (49.3, 25.05, 527.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_pkm_2',
+                    'delete' : False,
+                    'template' : 'arf_mg',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (50.3, 25.05, 527.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_pkm_3',
+                    'delete' : False,
+                    'template' : 'arf_mg',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (51.3, 25.05, 527.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
+                {
+                    'name' : 'cpname_ramiel_aas128_insmain_pkm_4',
+                    'delete' : False,
+                    'template' : 'arf_mg',
+                    'team' : 1,
+                    'delay' : 300,
+                    'position' : (52.3, 25.05, 527.5),
+                    'rotation' : (0.0, 0.0, 0.0)
+                    },
                 # Default spawners, deleting
                 {
                     'name': 'cpname_ramiel_aas128_habr_gidr_hq_acv',
