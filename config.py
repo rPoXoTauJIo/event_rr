@@ -957,7 +957,7 @@ MAP_SPAWNERS = {
                     'rotation' : (0.0, 0.0, 0.0)
                     },
                 {
-                    'name' : ''cpname_ramiel_aas128_insmain_pkm_1,
+                    'name' : 'cpname_ramiel_aas128_insmain_pkm_1',
                     'delete' : False,
                     'template' : 'arf_mg',
                     'team' : 1,
