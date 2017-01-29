@@ -228,7 +228,7 @@ MAP_SPAWNERS = {
                     'template': 'fixed_supply_crate_us',
                     'team': 2,
                     'delay': 60,
-                    'position': (-639.591, 24.922, -670.966),
+                    'position': (-639.591, 26.000, -670.966),
                     'rotation': (0.000, 0.000, 0.000)
                 },
                 # US grenadiers
