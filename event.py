@@ -54,7 +54,6 @@ def onGameStatusChanged(status):
         D.debugMessage('Event init stage 1')
         destroyDodTimer()
         setupDodTimer()
-        onDodTimerExpired()
         init_event_stage_1(map_name, map_gamemode, map_layer)
         init_event_setup_special_conditions()
         host.registerHandler('VehicleDestroyed', onObjectiveDestroyed)
