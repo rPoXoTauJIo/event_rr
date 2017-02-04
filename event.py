@@ -263,6 +263,7 @@ def init_event_stage_wave():
                     if map_layer in C.MAP_SPAWNERS_WAVE[map_name][map_gamemode]:
                         if G_WAVE in C.MAP_SPAWNERS_WAVE[map_name][map_gamemode][map_layer]:
                             setupSpawnersWave(map_name, map_gamemode, map_layer, G_WAVE)
+                            disableSpawnersWave(map_name, map_gamemode, map_layer, G_WAVE)
         except:
             D.errorMessage()
 
@@ -284,6 +285,8 @@ def getObjectSpawners():
 def setupSpawnersWave(map_name, map_gamemode, map_layer, wave):
     D.debugMessage('Spawning wave: %s' % (G_WAVE))
     for spawner_set in C.MAP_SPAWNERS_WAVE[map_name][map_gamemode][map_layer][wave]:
+        if 'delete' in spawner_set and spawner_set['delete']:
+            continue
         D.debugMessage('Spawning "%s" %s at %s' % (
             spawner_set['name'],
             spawner_set['template'],
@@ -311,6 +314,36 @@ def setupSpawners(map_name, map_gamemode, map_layer):
             getbf2str(spawner_set['position']))
             )
         spawnAsset(spawner_set)
+
+def disableSpawnersWave(map_name, map_gamemode, map_layer, wave):
+    mapObjectsSpawners = bf2.objectManager.getObjectsOfType('dice.hfe.world.ObjectTemplate.ObjectSpawner')
+    
+    delete = []
+    
+    for spawner_set in C.MAP_SPAWNERS_WAVE[map_name][map_gamemode][map_layer][wave]:
+        if 'delete' in spawner_set and spawner_set['delete']:
+            delete.append(spawner_set['name'])
+
+    for mapSpawner in mapObjectsSpawners:
+        spawner_name = mapSpawner.templateName
+
+        if spawner_name in delete:
+            # acquiring spawner object&template
+            # I DONT KNOW WHY THIS EVEN WORKS
+            object = host.rcon_invoke("""
+                objecttemplate.active %s
+                objecttemplate.objecttemplate
+                """ % spawner_name)
+
+            # removing spawn&spawner
+            host.rcon_invoke("""
+                objecttemplate.nrofobjecttospawn 0
+                objecttemplate.remove
+                """)
+            
+
+            D.debugMessage('deleteSpawners(): removed.spawner = %s' % (spawner_name))
+            D.debugMessage('deleteSpawners(): removed.PCOtemplate = %s' % (object))
 
 def deleteSpawners(map_name, map_gamemode, map_layer):
     mapObjectsSpawners = bf2.objectManager.getObjectsOfType('dice.hfe.world.ObjectTemplate.ObjectSpawner')
