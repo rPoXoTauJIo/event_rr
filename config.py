@@ -1958,7 +1958,78 @@ MAP_FLAGS = {
     'ramiel': {
         'gpm_cq': {
             128: {
-                'cpname_ramiel_aas128_habr_gidr_hq': (67.3558, 20.0, 525.785)
+                'cpname_ramiel_aas128_habr_gidr_hq': {
+                    'position' : (67.3558, 20.0, 525.785),
+                    'delete' : False,
+                    'team' : 0,
+                },
+                'cpname_ramiel_aas128_blackhawk1': {
+                    'delete' : False,
+                    'team' : 1,
+                },
+                'cpname_ramiel_aas128_blackhawk2': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_160th': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_deltaforce': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_10th': {
+                    'delete' : False,
+                },
+                'cpname_ramiel_aas128_mosque1': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_mosque2': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_city2': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_extraction': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew1': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew2': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew3': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew4': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew5': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew6': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew7': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew8': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew11': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew13': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew14': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_crew15': {
+                    'delete' : True,
+                },
+                'cpname_ramiel_aas128_convoy': {
+                    'delete' : True,
+                },
             }
         }
     }
@@ -2092,13 +2163,14 @@ MAP_DODS = {
                 },
                 'CombatArea_36_Preparation': {
                     'name': 'CombatArea_36_Preparation',
-                    'create': False,  # for testing enale
+                    'create': True,  # for testing enale
                     'modify': False,
                     'delete': False,
                     'team': 0,
                     'vehicles': 4,
                     'layer': 7,
                     'inverted': 1,
+                    'delayed' : True,
                     'areapoints': [
                         (-180.868530, -357.887512),
                         (-131.831909, -383.654602),
