@@ -72,7 +72,7 @@ def setupDodTimer():
     global G_DOD_TIMER
 
     destroyDodTimer()
-    G_DOD_TIMER = realitytimer.Timer(onDodTimerExpired, 120, 1)
+    G_DOD_TIMER = realitytimer.Timer(onDodTimerExpired, 300, 1)
 
 
 def onDodTimerExpired(data=''):
