@@ -9,6 +9,7 @@ import game.realityserver as realityserver
 import game.realityconstants as realityconstants
 import game.realitykits as realitykits
 import game.realitygamemode as realitygamemode
+import game.realityconfig_common as realityconfig_common
 
 # importing custom modules
 import advdebug as D
@@ -72,7 +73,7 @@ def setupDodTimer():
     global G_DOD_TIMER
 
     destroyDodTimer()
-    G_DOD_TIMER = realitytimer.Timer(onDodTimerExpired, 300, 1)
+    G_DOD_TIMER = realitytimer.Timer(onDodTimerExpired, (realityconfig_common.PRROUNDSTARTDELAY+300), 1)
 
 
 def onDodTimerExpired(data=''):
