@@ -29,17 +29,16 @@ def deinit():
 # ------------------------------------------------------------------------
 def onGameStatusChanged(status):
     if status == bf2.GameStatus.Loaded:
-        # time critical tasks and should be done asap
-        D.debugMessage('Event init stage0')
         init_event_stage_0()
     if status == bf2.GameStatus.Playing: # game is now in playing state
         # registering chatMessage handler
         #host.registerHandler('ChatMessage', onChatMessage, 1)
-        D.debugMessage('Event init stage 1')
         init_event_stage_1()
         D.debugMessage('Event init finished')
 
 def init_event_stage_0():
+    D.debugMessage('Event init stage0')
+
     map_name = bf2.gameLogic.getMapName()
     map_gamemode = bf2.serverSettings.getGameMode()
     map_layer = realitycore.g_mapLayer
@@ -51,15 +50,10 @@ def init_event_stage_0():
                         deleteSpawners(map_name, map_gamemode, map_layer)
         except:
             D.errorMessage()
-        '''
-        if map_name in C.MAP_SPAWNPOINTS:
-            if map_gamemode in C.MAP_SPAWNPOINTS[map_name]:
-                if map_layer in C.MAP_SPAWNPOINTS[map_name][map_gamemode]:
-                    setupSpawnpoints(map_name, map_gamemode, map_layer)
-        '''
-    
 
 def init_event_stage_1():
+    D.debugMessage('Event init stage 1')
+
     map_name = bf2.gameLogic.getMapName()
     map_gamemode = bf2.serverSettings.getGameMode()
     map_layer = realitycore.g_mapLayer
@@ -70,17 +64,6 @@ def init_event_stage_1():
                 if map_gamemode in C.MAP_FLAGS[map_name]:
                     if map_layer in C.MAP_FLAGS[map_name][map_gamemode]:
                         setupFlags(map_name, map_gamemode, map_layer)
-            if map_name in C.MAP_HIDEOUTS:
-                if map_gamemode in C.MAP_HIDEOUTS[map_name]:
-                    if map_layer in C.MAP_HIDEOUTS[map_name][map_gamemode]:
-                        pass
-                        #setupHideouts(map_name, map_gamemode, map_layer)
-            '''
-            if map_name in C.MAP_SPAWNPOINTS:
-                if map_gamemode in C.MAP_SPAWNPOINTS[map_name]:
-                    if map_layer in C.MAP_SPAWNPOINTS[map_name][map_gamemode]:
-                        setupSpawnpoints(map_name, map_gamemode, map_layer)
-            '''
             if map_name in C.MAP_SPAWNERS:
                 if map_gamemode in C.MAP_SPAWNERS[map_name]:
                     if map_layer in C.MAP_SPAWNERS[map_name][map_gamemode]:
@@ -106,17 +89,6 @@ def getObjectSpawners():
     for spawner in spawners:
         spawnerTemplates.append(str(spawner.templateName))
     return spawnerTemplates
-
-# this doesn't work
-def setupSpawnpoints(map_name, map_gamemode, map_layer):
-    spawnpoints = bf2.objectManager.getObjectsOfType('dice.hfe.world.ObjectTemplate.Spawnpoint')
-    for spawnpoint in spawnpoints:
-        spawn_name = spawnpoint.templateName
-        object = host.rcon_invoke("""
-            objecttemplate.active %s
-            objecttemplate.objecttemplate
-            """ % spawn_name)
-        D.debugMessage('setupSpawnpoints(): %s: %s' % (str(spawn_name), str(object)))
 
 def setupFlags(map_name, map_gamemode, map_layer):
     for cp in realitycore.cleanListOfObjects(bf2.objectManager.getObjectsOfType(\
